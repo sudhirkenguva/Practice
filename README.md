@@ -1,2 +1,2 @@
 # Practice
-Contains files related to my Javascript Practice.
+Contains files related to my Practice.
