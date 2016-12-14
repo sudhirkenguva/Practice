@@ -34,7 +34,9 @@ app.controller('myCtrl', function($scope, $http) {
         var end = n * $scope.commentsPerPage;
         var begin = end - ($scope.commentsPerPage - 1);
         $scope.pagedComments = $scope.commentsData.slice(begin - 1, end);
-        $scope.pagesToShow = $scope.range.slice(n - 2, n + 1);
+        if (n > 1 && n < $scope.pageCount-$scope.pagesPerScreen ) {
+            $scope.pagesToShow = $scope.range.slice(n - 2, n + 1);
+        }
         console.log('n is ' + n);
     }
 
