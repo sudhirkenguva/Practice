@@ -3,7 +3,8 @@
 
 <head>
     <title>Pagination</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="shortcut icon" href="icons/s.ico" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="controller.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,13 +42,13 @@
                         <a class="not-active" ng-click="firstPage()"><i class="fa fa-step-backward" aria-hidden="true"></i></a>
                     </li>
 
-                    <li ng-class="{'disabled':currentPage <= pagesPerScreen}">
+                    <li ng-class="{'disabled':currentPage <= 1}">
                         <a ng-click="prevPages(currentPage)"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
                     </li>
 
                     <li ng-repeat="i in pagesToShow" ng-class="{'active':i == currentPage}"><a ng-click="showPagedResult(i)">{{i}}</a></li>
 
-                    <li ng-class="{'disabled':currentPage >= pageCount-pagesPerScreen}">
+                    <li ng-class="{'disabled':currentPage == pageCount}">
                         <a ng-click="nextPages(currentPage)"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
                     </li>
 

@@ -34,38 +34,64 @@ app.controller('myCtrl', function($scope, $http) {
         var end = n * $scope.commentsPerPage;
         var begin = end - ($scope.commentsPerPage - 1);
         $scope.pagedComments = $scope.commentsData.slice(begin - 1, end);
+        $scope.pagesToShow = $scope.range.slice(n - 2, n + 1);
         console.log('n is ' + n);
     }
 
+    // $scope.nextPages = function() {
+    //     if ($scope.currentPage < $scope.pageCount - $scope.pagesPerScreen) {
+    //         var cp = $scope.currentPage;
+    //         var pps = $scope.pagesPerScreen;
+    //         var page = Math.ceil(cp / pps) * pps;
+    //         $scope.pagesToShow = $scope.range.slice(page, page + pps);
+    //         console.log(page + '--> page');
+    //         console.log(page + pps + '--> page+pps');
+    //         console.log($scope.pagesToShow);
+    //         $scope.showPagedResult($scope.range[page]);
+    //     }
+
+    // }
+
+    // $scope.prevPages = function() {
+
+    //     if ($scope.currentPage > $scope.pagesPerScreen) {
+    //         var cp = $scope.currentPage;
+    //         var pps = $scope.pagesPerScreen;
+    //         var page = Math.floor(cp / pps) * pps;
+    //         $scope.pagesToShow = $scope.range.slice(page - pps, page);
+    //         console.log(page + '--> page');
+    //         console.log(page - pps + '--> page-pps');
+    //         console.log($scope.pagesToShow);
+    //         $scope.showPagedResult($scope.range[page]);
+    //     }
+
+
+    // }
+
+
+
     $scope.nextPages = function() {
-        if ($scope.currentPage < $scope.pageCount - $scope.pagesPerScreen) {
-            var cp = $scope.currentPage;
-            var pps = $scope.pagesPerScreen;
-            var page = Math.ceil(cp / pps) * pps;
-            $scope.pagesToShow = $scope.range.slice(page, page + pps);
-            console.log(page + '--> page');
-            console.log(page + pps + '--> page+cpp');
-            console.log($scope.pagesToShow);
-            $scope.showPagedResult($scope.range[page]);
+        var cp = $scope.currentPage;
+        if (cp == $scope.pageCount - 1) {
+            $scope.showPagedResult($scope.pageCount);
+        } else if (cp < $scope.pageCount - 1) {
+            $scope.pagesToShow = $scope.range.slice(cp - 1, cp + 2);
+            $scope.showPagedResult(cp + 1);
         }
 
     }
+
 
     $scope.prevPages = function() {
-
-        if ($scope.currentPage > $scope.pagesPerScreen) {
-            var cp = $scope.currentPage;
-            var pps = $scope.pagesPerScreen;
-            var page = Math.floor(cp / pps) * pps;
-            $scope.pagesToShow = $scope.range.slice(page - pps, page);
-            console.log(page + '--> page');
-            console.log(page + pps + '--> page+cpp');
-            console.log($scope.pagesToShow);
-            $scope.showPagedResult($scope.range[page - pps]);
-        }
-
+        var cp = $scope.currentPage;
+        if (cp > 2) {
+            $scope.pagesToShow = $scope.range.slice(cp - 3, cp);
+            $scope.showPagedResult(cp - 1);
+        } else if (cp == 2)
+            $scope.showPagedResult(cp - 1);
 
     }
+
 
     $scope.lastPage = function() {
         if ($scope.currentPage < $scope.pageCount - $scope.pagesPerScreen) {
