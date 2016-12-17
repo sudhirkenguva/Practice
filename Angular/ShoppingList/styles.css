@@ -1,0 +1,14 @@
+.list {
+    margin-top: 50px;
+}
+
+.panel {
+    text-align: center;
+}
+
+.listItem {
+    font-size: 15px;
+    font-weight: 500px;
+    text-align: left;
+    margin-left: 50px;
+}
