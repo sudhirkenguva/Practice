@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>
+        AJAX CALL
+    </title>
+    <style>
+        p {
+            background: darkgray;
+            font-size: 20px;
+            font-family: "book antiqua";
+            width: 20%;
+        }        
+    </style>
+</head>
+
+<body>
+    <button>Click to Load</button>
+    <div class="content"></div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+</script>
+
+<script>
+    var root = 'https://jsonplaceholder.typicode.com';
+    $("button").click(function() {
+        $(".content").html('');
+        $.ajax({
+            type: "GET",
+            url: root + '/users',
+        }).then(function(data) {
+            for (var i = 0; i < data.length; i++) {
+                let content = data[i].id + ' , ' + data[i].username;
+                $(".content").append('<p>' + content + '</p>');
+            }
+        });
+    });
+</script>
+
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="controller.js"></script>
+</head>
+
+
+<body>
+
+    <div ng-app="myApp" ng-controller="myCtrl">
+
+        <h3>{{fullName()}}</h3>
+        <input type="text" placeholder="First Name" ng-model="firstName">
+        <input type="text" placeholder="Last Name" ng-model="lastName">
+        <h3>List of entries (no. {{list.length}})</h3>
+        <ul>
+            <li ng-repeat="item in list">
+                {{item}}
+            </li>
+        </ul>
+    </div>
+</body>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test 3</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="controller.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
+
+    <h3 align="center">Order by {{currentOrder|uppercase}}</h3>
+    <table border="1" width="50%" cellspacing=10 align="center">
+
+        <thead>
+            <th ng-click="changeOrder('name')">Name</th>
+            <th ng-click="changeOrder('country')">Country</th>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="item in names | orderBy:currentOrder ">
+                <td>{{item.name}}</td>
+                <td>{{item.country}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>

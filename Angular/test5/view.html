@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test 5</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="services.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <ul>
+            <li ng-repeat="person in peopleData">
+                {{person.name + ' --> '+ person.email}}
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagination</title>
+    <link rel="shortcut icon" href="icons/s.ico" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="controller.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <div class="container">
+            <!-- Comments Listing  -->
+            <span class="comment-count">Total comments : {{commentsData.length}}</span>
+            <span class="comment-count">Page Count : {{pageCount}}</span>
+            <div class="panel panel-primary comment-panel" ng-repeat="comment in pagedComments">
+                <div class="panel-heading">{{comment.id}} {{comment.name}}</div>
+                <div class="panel-body">{{comment.body}}</div>
+                <div class="panel-footer">{{comment.email}}</div>
+            </div>
+
+            <!-- Pagination-->
+            <div class="col-md-offset-2 col-md-8 pagination-div">
+                <ul class=" pagination pagination-sm comments-pagination ">
+                    <li ng-class="{'disabled':currentPage <= pagesPerScreen}">
+                        <a class="not-active" ng-click="firstPage()"><i class="fa fa-step-backward" aria-hidden="true"></i></a>
+                    </li>
+
+                    <li ng-class="{'disabled':currentPage <= 1}">
+                        <a ng-click="prevPages(currentPage)"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                    </li>
+
+                    <li ng-repeat="i in pagesToShow" ng-class="{'active':i == currentPage}"><a ng-click="showPagedResult(i)">{{i}}</a></li>
+
+                    <li ng-class="{'disabled':currentPage == pageCount}">
+                        <a ng-click="nextPages(currentPage)"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                    </li>
+
+                    <li ng-class="{'disabled':currentPage >= pageCount-pagesPerScreen}">
+                        <a ng-click="lastPage()"><i class="fa fa-step-forward" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
