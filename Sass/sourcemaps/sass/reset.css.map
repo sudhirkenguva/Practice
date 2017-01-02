@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAAA;;;;EAII,UAAS;EACT,WAAU,EACb","file":"../../sass/reset.css","sourcesContent":["html,\r\nbody,\r\nul,\r\nol {\r\n    margin: 0;\r\n    padding: 0;\r\n}"]}

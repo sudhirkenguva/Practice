@@ -1,0 +1,64 @@
+Difficulties with plain CSS
+--> color problem
+--> no computational values
+--> no reusability
+--> the problem with imports
+
+Sass:  [Important!!!!]
+--> Sass
+--> Using Sass on server
+--> Variables
+--> Rules
+--> Importing
+--> Functions
+--> Extending
+--> Mixins
+--> Control devices
+
+Sass is a Dynamic Style Sheet Language
+
+--> Syntactically Awesome Style Sheets
+--> Compiles to CSS
+--> Introduces programming fatures to CSS
+
+Sass supports for server side technologies like
+
+--> Node js , ASP .Net, Rails, JSP etc.
+
+for Node js, example code
+1) $ npm install Sass
+2) var Sass = require ('Sass');
+
+Sass.render(SassContents, function (e,css){
+console.log(css);
+});
+
+Sass brings variables to CSS.
+
+Acceptable values for variables include numbers, strings, colors, null, lists and maps.
+
+Variables in Sass are scoped using the $ symbol.
+
+Unlike CSS, Sass allows us to use mathematical expressions! This is super helpful within mixins, and allows us to do some really cool things with our markup.
+
+Supported operators include:
+
++	Addition
+–	Subtraction
+/	Division
+*	Multiplication
+%	Modulo
+==	Equality
+!=	Inequality
+
+Before moving forward, I want to note two potential “gotchas” with Sass math.
+
+First, because the / symbol is used in shorthand CSS font properties like font: 14px/16px, if you want to use the division operator on non-variable values, you need to wrap them in parentheses like:
+
+
+$fontDiff: (14px/16px);
+
+
+Second, you can’t mix value units:
+
+$container-width: 100% - 20px;  [Error]

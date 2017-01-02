@@ -1,0 +1,46 @@
+
+[2016 survey]
+https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results
+
+
+
+CSS:
+--> Sass.           [gulp-sass]
+--> CSS linter.     
+--> CSS naming conventions.[bem]
+--> Autoprefixer (css postprocessor)    [gulp-autoprefixer]
+--> sourcemaps  [gulp-sourcemaps]
+--> minifiers
+--> concaters [gulp-clean-css]
+
+using to gulp for sass to css conversion:
+http://www.codingpedia.org/ama/how-to-use-gulp-to-generate-css-from-sass-scss/
+
+using sourcemaps for debugging in browser
+https://robots.thoughtbot.com/sass-source-maps-chrome-magic
+
+setting Typescript folder structure
+http://lividsoftware.com/post/How-to-code-and-debug-TypeScript
+
+Language:
+--> Typescript
+
+Task runner:
+--> Gulp
+
+Module bundler:
+--> Webpack
+
+Javascript
+--> Babel  [Transpile from ES6 to ES5]
+--> linter [ESLint]
+    --> npm install eslint
+    --> eslint --init [to create config file]
+    -->
+--> testing [mocha/jasmine]
+
+Front-end framework:
+Angular 2 
+
+documentation:
+jsdocs etc.

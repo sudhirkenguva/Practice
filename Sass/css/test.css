@@ -1,0 +1,52 @@
+/* Reset css start*/
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+/* Reset css end*/
+body {
+  color: green; }
+  body a {
+    text-decoration: none; }
+  body h1 {
+    font-size: 20px; }
+  body h3 {
+    color: #5a010f; }
+  body h2 {
+    color: #804040; }
+
+div {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline; }
+
+h1 {
+  background-color: green;
+  background-size: cover; }
+
+.one, .two, .three {
+  font-size: 32px;
+  color: green;
+  background-color: yellow;
+  text-decoration: underline;
+  padding: 2px;
+  margin: 2px; }
+
+.two, .three {
+  padding: 0;
+  margin: 0; }
+
+.three {
+  padding: 5px;
+  border: 2px solid gray; }
+
+div#box {
+  width: 100px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=../sourcemaps/sass/test.css.map */

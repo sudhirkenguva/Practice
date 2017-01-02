@@ -1,0 +1,30 @@
+ctrl + f4 --> file close
+alt + f4 --> window close
+f11 --> full screen toggle
+ctrl + tab --> switch among recent files [History].
+
+ctrl + c [with empty selection] --> line copy
+ctrl + x [with empty selection] --> line cut
+
+alt + up/down arrow --> line move
+shift+alt + up/down arrow --> line copy
+ctrl + up/down arrow --> line scroll
+
+ctrl + ` --> toggle integrated terminal.
+
+ctrl + p -- filename --> file search
+shift + ctrl + p --> command pallete
+
+ctrl + p -- @symbolname --> symbol search (like variable name / keywords / identifiers)
+
+ctrl + p -- #symbolname --> search all symbols.
+
+f8 shift+f8 -- goto errors.            
+
+
+ctrl + k m --> change language
+
+alt + shift + a --> block comment
+ctrl + / --> line comment
+
+ctrl+b --> toggle side bar
