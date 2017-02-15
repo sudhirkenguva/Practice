@@ -1,0 +1,43 @@
+type mismatch
+
+interface (member autosuggestion )
+
+conversion from es6 to es5
+
+refactoring ( ctrl+click, rename(rightClick) )
+
+What are type definitions (how to add it) [40 mins]
+
+
+autosuggestion from typescript files [42 mins]
+
+strict null checks (45.50 min)
+non-nulable and control-flow based type  check
+
+
+1993 --> NCSA released --> NCSA mosaic (graphical web browser)
+
+1994 --> Mosaic communications --> mosaic netscapte.
+[internal codename is mozilla-> mosaic killer]
+
+But intentionally no code shared between them
+
+in 1994 --> Mosaic Netscape 0.9 is released --> occupied 75% of the market. --> and renamed to netscape navigator --> company renamed to netscape communications
+
+in 1995 --> the above company recruited, Brenden Eich--> to include 'Scheme' programming language into ns-navigator.
+
+in may 1995 -> to defend against competing proposal--> Brenden aich given prototype for javascript in 10 days (so quick !!!)
+
+
+The intention behind javascript.
+
+
+. Marc Andreessen, the founder of the company believed that HTML needed a "glue language" that was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be written directly in the Web page markup
+
+https://brendaneich.com/2010/07/a-brief-history-of-javascript/
+
+test: /(\.css|\.scss)$/,
+
+
+
+

@@ -1,0 +1,11 @@
+WebPack is  a module bundler
+Its converts our application into one or more bundles and transfers to browser
+
+It's an excellent alternative to the SystemJS
+
+A bundle is a JavaScript file that incorporate assets that belong together and should be served to the client in a response to a single file request.
+A bundle can include JavaScript, CSS styles, HTML, and almost any other kind of file.
+[Most importantly, a bundle is available with single request]
+
+In addition to javascript files, Webpack can preprocess and minify different non-JavaScript files such as TypeScript, SASS, and LESS files
+

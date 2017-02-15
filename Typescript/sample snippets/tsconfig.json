@@ -1,9 +1,12 @@
 {
-    "files": [
-        "*.ts"
-    ],
     "compilerOptions": {
+        "module": "commonjs",
         "noImplicitAny": true,
-        "target": "es5"
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "target": "es5",
+        "listEmittedFiles": true,
+        "outDir": "./js/Handbook/"
     }
 }

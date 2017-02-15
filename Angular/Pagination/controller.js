@@ -40,37 +40,6 @@ app.controller('myCtrl', function($scope, $http) {
         console.log('n is ' + n);
     }
 
-    // $scope.nextPages = function() {
-    //     if ($scope.currentPage < $scope.pageCount - $scope.pagesPerScreen) {
-    //         var cp = $scope.currentPage;
-    //         var pps = $scope.pagesPerScreen;
-    //         var page = Math.ceil(cp / pps) * pps;
-    //         $scope.pagesToShow = $scope.range.slice(page, page + pps);
-    //         console.log(page + '--> page');
-    //         console.log(page + pps + '--> page+pps');
-    //         console.log($scope.pagesToShow);
-    //         $scope.showPagedResult($scope.range[page]);
-    //     }
-
-    // }
-
-    // $scope.prevPages = function() {
-
-    //     if ($scope.currentPage > $scope.pagesPerScreen) {
-    //         var cp = $scope.currentPage;
-    //         var pps = $scope.pagesPerScreen;
-    //         var page = Math.floor(cp / pps) * pps;
-    //         $scope.pagesToShow = $scope.range.slice(page - pps, page);
-    //         console.log(page + '--> page');
-    //         console.log(page - pps + '--> page-pps');
-    //         console.log($scope.pagesToShow);
-    //         $scope.showPagedResult($scope.range[page]);
-    //     }
-
-
-    // }
-
-
 
     $scope.nextPages = function() {
         var cp = $scope.currentPage;

@@ -1,0 +1,25 @@
+Why Angular2 ?
+
+--> Fast
+--> Easy
+--> Powerful
+--> Clean
+
+
+Language Choices
+--> es5 (no conversion, no types, javascript )  
+--> es6/es2015 (conversion required, no types, javascript)  --> superset of es5
+--> typescript (conversion required, types present, superset of javascript) --> superset of es6
+--> dart (its not  javascript)
+
+Angular1 vs Angular2
+--> Angular1 skills matters for angular2 
+-->comparision of  7 key features 
+
+
+ "webpack-dev-server": "^1.14.1",
+
+ 
+ "webpack": "^1.13.0",
+        "webpack-dev-server": "^1.14.1",
+        "webpack-merge": "^0.14.0"

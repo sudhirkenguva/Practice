@@ -1,0 +1,16 @@
+Topics to present: 
+-->types [octal,binary]
+-->destructuring [array, object]
+-->
+-->
+-->
+
+<--> Use 'const' for variables & 'readonly' for  Properties
+
+
+COMMANDS
+---------
+
+--> To view the output of a js file
+    [node path&filename.js]
+
