@@ -1,0 +1,22 @@
+$fontSize: 35px;
+.test-class {
+    font-size: $fontSize;
+}
+
+.abc {
+    .pqr {
+        padding: 0px;
+    }
+}
+
+.my-btn {
+    background: green;
+    cursor: pointer;
+    &:hover {
+        background: red;
+    }
+}
+
+p {
+    font: 20px/10px sans-serif;
+}

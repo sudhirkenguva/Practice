@@ -1,0 +1,16 @@
+.test-class {
+  font-size: 35px; }
+
+.abc .pqr {
+  padding: 0px; }
+
+.my-btn {
+  background: green;
+  cursor: pointer; }
+  .my-btn:hover {
+    background: red; }
+
+p {
+  font: 20px/10px sans-serif; }
+
+/*# sourceMappingURL=../sourcemaps/sass/test2.css.map */

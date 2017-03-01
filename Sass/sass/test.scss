@@ -1,68 +1,29 @@
-/* Reset css start*/
+@import './reset';
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
 
-@import 'reset';
-
-/* Reset css end*/
-
-$font-stack: Helvetica,
-sans-serif;
-$primary-color: green;
 body {
-    color: $primary-color;
-    a {
-        text-decoration: none;
-    }
-    h1 {
-        font-size: 20px;
-    }
-    h3 {
-        color: #5a010f;
-    }
-    h2 {
-        color: #804040;
-    }
-}
-
-$header-color:blue;
-div {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-// We can use common namespace for properties
-h1 {
-    background: {
-        color: green;
-        size: cover;
-    }
-}
-
-//Inheritance
-.one {
-    font-size: 32px;
     color: green;
-    background-color: yellow;
-    text-decoration: underline;
-    padding: 2px;
-    margin: 2px;
+    font-family: $customFont;
+}
+
+.box {
+    @include border-radius(10px);
+}
+
+.one {
+    font-size: 20px;
 }
 
 .two {
     @extend .one;
-    padding: 0;
-    margin: 0;
+    color: red;
 }
 
 .three {
-    @extend .two;
-    padding: 5px;
-    border: 2px solid gray;
-}
-
-div#box {
-    width: 100px;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 3px;
+    @extend .two
 }

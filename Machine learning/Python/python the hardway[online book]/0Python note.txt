@@ -1,0 +1,8 @@
+# is used to create comments
+
+int(raw_input()) --> to convert accepted string to integer
+
+%r is for debugging purpose (it prints raw values)
+%s is for display purpose (for string printing always use %s)
+
+pydoc (python documentation)

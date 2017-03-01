@@ -1,0 +1,27 @@
+[link] https://elitedatascience.com/learn-machine-learning
+
+ML learning comprises of 4 levels
+
+1) Prerequisites
+Build a foundation of statistics, programming, and a bit of math.
+
+2) Sponge Mode
+Immerse yourself in the essential theory behind ML.
+
+3) Targeted Practice
+Use ML packages to practice the 9 essential topics.
+
+4) Machine Learning Projects
+Dive deeper into interesting domains with larger projects.
+
+Step 1: 
+Python, statistics and maths
+
+python: [link] https://learnpythonthehardway.org/book/
+tips: 
+--> practice every day (atleast 2 hours) [actually by practicing every day and managing time, we can do many things]
+--> when you frustrate with stuff, take it slow (dont worry)
+--> its alright to lost early (if you dont get things, try to stick with them)
+--> when you get stuck, get more information
+--> try to solve things on your own first (before asking someone help, first try to be)
+--> Finally good luck and have fun.
