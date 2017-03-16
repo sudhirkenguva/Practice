@@ -1,0 +1,11 @@
+Callbacks are the most common way of expressing asynchrony in JS programs.
+Callback is the most fundamental async pattern in Javascript.
+
+There are many callback patterns;
+    -- split callback design
+    -- error first style (sometimes called Node style)
+
+Some functions take callbacks and executes them immediately 
+    eg: forEach() (Synchronouse)
+While some other functions take  callbacks and execute them in future
+    eg: setTimeout() (These are asynchronous)

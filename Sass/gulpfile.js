@@ -6,7 +6,6 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
-var concatCss = require('gulp-concat-css');
 
 
 
@@ -22,7 +21,6 @@ gulp.task('sass', function() {
 
 gulp.task('cssmin', ['sass'], function() {
     return gulp.src('css/*.css')
-        .pipe(concatCss('css/bundle.css'))
         .pipe(cleanCSS({ debug: true }, function(details) {
             console.log(details.name + '[' + details.stats.originalSize + ' -->' + details.stats.minifiedSize + ' bytes ] ');
         }))

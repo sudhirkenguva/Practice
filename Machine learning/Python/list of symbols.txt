@@ -1,0 +1,55 @@
+.py --> Python file extension
+
+python filename --> to execute a python script/file
+
+anaconda --> environment and package library for python
+
+conda --> minimal version of anaconda
+
+# -> to start a comment
+-----------------------------------------------------------------------------------------------------------------------
+print "message"  -> to print a simple message
+
+print "msg1"+"msg2" --> to concatenate multiple messages/strings
+
+print "msg",var --> to print the value of variable along with message (It automatically adds space at the end of msg)
+
+print "my name is %s and my age is %d", %(name,age)  --> printing using format specifiers
+
+print "msg"*5  --> to repeat the message in 5 times
+-----------------------------------------------------------------------------------------------------------------------
+Operators
++ - * / % **(exponent)
+-----------------------------------------------------------------------------------------------------------------------
+len("string") --> returns length of string
+
+from sys import argv --> sys is a module, argv is a feature
+
+var1, var2 = argv --> unpacking an array
+-----------------------------------------------------------------------------------------------------------------------
+
+def function_name(list of arguments) :
+	statements;
+			---> function syntax
+-----------------------------------------------------------------------------------------------------------------------
+
+file_obj = open("file_name")  --> by default read mode
+or
+file_obj = open("file_name","r")
+file_obj = open("file_name","w")  --> write mode
+
+file_obj.truncate()
+file_obj.write("content")
+file_obj.read()
+file_obj.readline()
+file_obj.close()
+-----------------------------------------------------------------------------------------------------------------------
+												To explore
+import random
+split()
+zip()
+array.count()
+
+
+
+
