@@ -1,0 +1,8 @@
+Core of MongoDB query strategy is QBE (Query By Example)
+
+The return value of find() is not just array of objects, its a cursor
+which means, we can iterate over it by .next() and .hasnext() method
+
+[link to mongo query language] https://docs.mongodb.com/v3.2/tutorial/query-documents/
+
+In this course, we will use 'express' framework which acts as wrapper over http and (It has many other benifits)

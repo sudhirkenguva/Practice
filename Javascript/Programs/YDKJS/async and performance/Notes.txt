@@ -1,0 +1,32 @@
+The relationship between the now and later parts of your program is at the heart of asynchronous programming.
+The simple way to handle asynchrony is callbacks (Even today may developers believe that callbacks are simply more than enough)
+
+link: [ https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started ]
+
+Javascript asynchronous function calls mainly depends on two entities
+    1) Call stack
+        It contains all the events and their list of event handlers (callbacks). 
+        When any event fires, its corresponding call back will be inserted at the end of event queue.
+    2) Event loop (Event queue)
+        It contains list of tasks to be carried out.
+        As Javascript is single threaded, while a task is being carried out, no other task from the que is served.
+        eg: when user clicks on a button its corresponding callback is fired, while it is executed, no other task can be done.
+
+Different callback patterns
+    split callback style :
+        someFun(success_cb(){}, failure_cb(){})
+    error first callback style (Node style)
+        someFun(cb(err,res){
+        })
+
+        So when you write a function that accept a callback, make sure your function always sync or always async.
+
+Difficulties with callbacks:
+    When callbacks are nested (Callback hell, Pyramid of doom)
+    --> Its very hard to reason
+    --> Its very hard to modify
+    (Human brain always reason in sequential fashion But callbacks simply contradicts that idea)
+
+    --> [important] inversion of control (Trust Issues)
+
+
