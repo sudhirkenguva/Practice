@@ -1,0 +1,28 @@
+SCOPE:
+A well-defined set of rules for storing variables in some location, and finding those variables at a later time is called scope.
+
+The major 3 components of javascript code execution are:
+        1) Engine   [starts and finishes the execution]
+        2) Compiler [it is a friend of Engine, that takes care of most of the dirty works like
+                     parsing, lexical analysis, syntax analysis, code generation , optimization etc.  ]
+        3) Scope    [its another friend of engine, that looks after list of declared identifiers, their access rules etc.]
+
+--> Compiler produces code for Engine to execute.
+
+eg: let a = 2;
+
+In the above statement, following tasks may occur.
+    compiler checks whether, 'a' is available in the current scope or not.
+    if not, it declares 'a' in the current scope.
+    Later engine will looks up for a in current scope and assigns value to it.
+
+
+There are mainly 2 models for how scope will works
+    i)  lexical scope  [javascript use it]
+    ii) dynamic scope 
+
+CLOSURES:
+    Closure is when a function is able to remember and access its lexical scope even when that function 
+    is executing outside its lexical scope.
+
+Article for this [[http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/]] (Must read)

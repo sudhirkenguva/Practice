@@ -1,0 +1,2 @@
+1) Scary parts of JS 
+	this, closure, scope, 

@@ -1,0 +1,179 @@
+'this' & bind(),apply(),call() in javascript
+__________________________________________________________________________________________________________________________________
+Article for this [[http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/]] (Must read)
+
+Just like in any other Object oriented programming language
+    'this' keyword inside a function will refer to that function's invoking object [Which is called call site]. (this4.js)
+When function is doesnot belong to any object/ it is called without any object, 
+'this' inside that function will refer to global object (window)
+
+We should clear remember that, 'this' keyword gets value only at the invocation of its function and refer to the invoking object,
+no matter where it is defined.
+
+We can set the invoking object/ call site / context explicitly by appy() method.
+
+We should be careful, when we passing a function (which uses 'this') as callback, 
+becoz we dont know in which context it will be executed.  [this7.js]
+
+'this' keyword cannot access the object from inner function of any function present inside object. [this8.js]
+
+call(), apply() and bind() methods:
+These 3 methods are used to tackle 'this' inside a method.
+
+bind() -->  It is used to bind any orbitary object with 'this' inside a method
+            It is used before that method invocation (calling),
+            so that any consequence calls can be effected.
+
+apply() & call() --> These 2 methods used to bind any arbitary object with 'this' keyword inside a method.
+                     but during function invocation (calling)
+
+    The difference between apply() & call() is that, 
+    both takes 1st argument as arbitary object.
+    apply() takes all the function parameters as single array (useful for variable no. of arguments)
+    call() takes all the function parameters as individual arguments in addition to arbitary object.
+
+    So when the method takes no arguments: both call() and apply() takes only arbitary object as argument
+    in this case both can be used interchangably.
+
+__________________________________________________________________________________________________________________________________        
+
+Objects in js
+__________________________________________________________________________________________________________________________________        
+
+Generally the tagline for JS is 'Everything in JS is object' but its not true.
+
+There are mainly following 6 primitive types: [till  ES5 I think]
+
+    number
+    string
+    boolean
+    null
+    undefined
+    object
+
+Javascript objects are of type 'object' (One of the above 6 primitive types)
+sometimes we see typeof null as 'object' (but dont be confused, null is not object type)
+
+Functions are actually object subtypes which are called 'callable objects'
+These are objects with special callable behaviour.
+
+Arrays are also special form of objects.
+These are more structured than normal objects.
+
+There are around 9 built-in types (Which are subtypes of 'object' type)
+    String
+    Number
+    Boolean 
+    Array
+    Object
+    RegExp
+    Function
+    Date
+    Error
+
+String, Number & Boolean
+    We can access the methods of above objects, using literal values (string, number, boolean),
+    There is no error, in this case, the literal values get type casted to corresponding object types. (objects2.js)
+
+    There are many methods available for String and Number (directly and through prototype)
+    But for Boolean there are no methods availabe directly (though available through prototype)
+
+Object, Array, Function & RegExp
+    These are always objects, regardless of we use literal form or constructor form ( new ( )).
+
+Date
+    it has no literal notation, only constructor form.
+
+Error
+    These objects are automatically when exceptions are thrown
+    we can also create them explicitly with new (new Error(...)) keyword(Generally not necessary)
+
+When we create object properties through double quotes, we have several advantages like:
+    Properties can be
+    --> Multiwords
+    --> We can include any utf8/unicode character (regardless of identifier rules)
+    --> Can use computed strings.    
+    
+We can access these properties through [..] notation.
+
+OBJECT COPY:
+    Every javascript developer atleast few times thinks that there should be some copy(..) for object copy.
+    but object copy is little complicated than what we might think. (see YDKJS)
+
+    When we assign obj2 = obj1 , the reference held by obj1 will be assigned to obj1, 
+    Which means both obj1 & obj2 will point to same contents (shallow copy)   [objects3.js]
+
+    for shallow copy, we can use assign() [introduced in ES6]
+    This method takes two or more objects as arguments, copies all enumurable own properties of 2nd object and later to 1st object.
+    It copies all the property values as = .
+    If any object contains references to arrays/functions etc. only their reference will be copied
+
+    To create an independent copy, we can use JSON.stringify & JSON.parse [objects3.js]
+
+OBJECT PROPERTY DESCRIPTOR:
+Object.getOwnPropertyDescriptor()
+    This function describes different options of object properties [objects4.js]
+    To change the options we can use, Object.defineProperty
+    there are 4 options for an object property:
+        -- value
+        -- writable
+        -- enumurable
+        -- configurable
+
+    writable : false ---> value cannot be changed.
+    configurable: false --> we cannot change the options.(So it is one way task (be careful)
+                            anyway writable can be set from true to false, but not false to true)
+                            'delete' cannot remove the property (if configurable is false.)
+
+    'delete' is used to remove the object properties (When configurable is not false)  [object5.js]
+
+There are 3 related operations on objects:  [objects7.js]
+    prevent extension   : any new property cannot be added.
+    seal                : calls preventExtension and makes all properties configurable:false
+    freeze              : calls preventExtension, makes all props configurable:false and writable:false
+                          (freeze() + writable:false)
+
+Object getters and setters: [Objects8.js]
+    -- getters and setters are the special type of properties which call some hidden functions 
+        to return or accept values.
+    -- [IMP] When getters and setters are defined for a property, its value & writable options are ignored,
+       but enumurable and configurable options are active.
+
+[IMP] 'in' vs 'hasOwnProperty:
+'in' keyword will check for a property in the object, if not present it will go up in prototype chain. ( Even when 
+prop is enumurable: false)
+'hasOwnProperty()' will check only in the given object (without checking prototype chain)
+
+-----------------------------------------------------------Final Summary--------------------------------------------
+--> Each object key(property) has, 4 options
+    value           : its value
+    writable        : whether modifiable or not
+    enumurable      : whether iterable or not
+    configurable    : whether, configuration changable or not 
+                        when configurable is false, we cannot make it true again (its one-way action)
+                        but we can make writable true to false (but not vice versa)
+
+--> To create a property constant 
+        We can make it writable:false and configurable:false
+        Object.defineProperty() for setting options
+        Object.getOwnPropertyDescriptor() for getting current options of property.
+
+--> 'in' keyword is used to test the presence of key in an object/object prototype chain.
+--> myObj.hasOwnProperty() will test the presence of key in specified object only.
+
+--> Object.keys() return arrays of enumurable properties.
+--> Object.hasOwnPropertyNames returns array of all the properties (enumurable / not enumurable).
+
+--> for-of loop is used to iterate over the array values    
+        it accesses the symbol.iterator of array/object
+        arrays by default contains this, so we can use it with arrays directly
+        but objects do not contain it by default, to use it with objects, 
+            we need to define symbol.iterator for the object
+--> for-in loop is used to iterate over the enumurable keys of array/object in the prototype chain
+
+  
+
+
+
+
+

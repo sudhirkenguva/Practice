@@ -1,0 +1,10 @@
+Javascript supports prototypal inheritance.
+
+When an accessed property is not present in the object, its protype object will be searched, if it is not foundt in its
+prototype, protype's prototype will be looked and in that way, prototype chain is traversed untill property is found or protype
+chain is ended.
+
+Function constructors are just functions called with new keyword. These functions have 2 specialities
+    -- 'new' keyword creates an empty object.
+    -- 'this' keyword inside the function will point to the empty object of previous step.
+    -- automatically returns the created object. (without return statement inside the function)
