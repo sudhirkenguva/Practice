@@ -11,6 +11,7 @@ How to manipulate DOM?
 Attributes of form element
 What are onload, method, action and autoload attributes of from element?
 get vs post.
+Ajax
 ______________________________________
 What is Angular?
 Angular architecture.
