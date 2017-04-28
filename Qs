@@ -1,0 +1,28 @@
+SDLC (Software Development Life Cycle).
+Steps in requirement gathering.
+Output of requirement gathering.
+Next step of requirement gathering.
+Steps in design phase.
+Diagrams used in design phase.
+What is DOM?
+DOM architecture
+Root element of DOM
+How to manipulate DOM?
+Attributes of form element
+What are onload, method, action and autoload attributes of from element?
+get vs post.
+______________________________________
+What is Angular?
+Angular architecture.
+What are ng-init, ng-view?
+What is scope?
+What are filters?
+Custom directive.
+2way databinding
+_______________________________________
+
+What is node JS
+______________________________________
+What is mongoDB?
+Document type
+Indexing
