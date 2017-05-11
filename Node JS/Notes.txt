@@ -1,0 +1,16 @@
+LIST OF TOOLS/TECHNOLOGIES/APP REQUIRED FOR NODE APP
+
+EXPRESS FRAMEWORK
+MONGOOSE FOR MONGODB INTERACTION
+
+BLUEBIRD FOR PROMISE FRAMEWORK
+PASSPORT FOR AUTHENTICAITON
+
+MOCHA FOR TESTING
+
+
+[imp] The standard way to start a node application is :
+    add start command to script section of package.json file
+    eg: scripts : [
+        "start":"node app.js
+    ]

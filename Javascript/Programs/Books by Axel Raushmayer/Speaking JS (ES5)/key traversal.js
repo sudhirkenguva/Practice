@@ -6,7 +6,10 @@
 let Person = {
     name: 'Untitled',
     age: 'Not available',
-    role: 'Not available'
+    role: 'Not available',
+    getDetails: function() {
+        return this.name + this.age + this.role;
+    }
 };
 
 let p1 = {
@@ -24,5 +27,16 @@ console.log(Object.getOwnPropertyNames(p1));
 
 console.log('for.in loop [gets all properties in the prototype chain]');
 for (key in p1) {
+    console.log(key);
+}
+
+let arr = [10, 20, 30];
+
+console.log(Object.keys(arr), '[returns only enumurable own properties]');
+
+console.log(Object.getOwnPropertyNames(arr), '[returns all own properties]');
+
+console.log('returns all the properties in prototype chain');
+for (key in arr) {
     console.log(key);
 }

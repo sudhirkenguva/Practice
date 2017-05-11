@@ -1,0 +1,1124 @@
+{
+    "authorProfile": {
+        "lastName": "Krebs",
+        "phoneNoOfficeCountry": "",
+        "displayName": "Krebs, Christopher",
+        "areasExpertise": "Delinquency and juvenile justice, corrections, drug policy, substance abuse epidemiology and treatment, intimate partner violence and sexual violence, HIV transmission among and associated high-risk behaviors of offenders and inmates, criminal justice systems, and program evaluation.",
+        "officeBuildingState": "NC",
+        "suffixName": "",
+        "whatIdo": "",
+        "departmentDesc": "0290124 - Center Justice, Safety, & Resilience",
+        "department": "SSES-SPHERE-BHCJ-JSR",
+        "email": "krebs@rti.org",
+        "officeBuildingGrouping": "Main Campus",
+        "officeRoom": "412",
+        "photoFile": "Krebs_C_5763_Web.jpg",
+        "titleDesc": "Senior Director, Public Health",
+        "prefixName": "Dr.",
+        "phoneNoOffice": "919-485-5714",
+        "officeBuildingCity": "Research Triangle Park",
+        "officeBuildingZip": "27709",
+        "firstName": "Christopher",
+        "phoneNoOffice_ext": "x25714",
+        "officeBuildingAddress2": "P.O. Box 12194",
+        "collaboration": "",
+        "officeBuildingAddress1": "3040 Cornwallis Road",
+        "middleName": "P",
+        "gemsId": "010306",
+        "lastFirstMname": "Krebs, Christopher P",
+        "officeBuilding": "Hill"
+    },
+    "authorPublications": [{
+            "pubauthors_s": "Marcus,Berzofsky|012277; Christopher P,Krebs|010306; Christine H,Lindquist|009789; ",
+            "pubdate_dt": "2016-12-15T12:00:00Z",
+            "pubtype_s": "Conference Proceeding",
+            "id": "a7c87c2a-c719-4e27-a26d-a293946b3680",
+            "abstract": "",
+            "title": [
+                "Impact of field period length in the estimates of sexual victimization in a web based survey of college females"
+            ],
+            "category": "Health",
+            "titleprimary_s": "Impact of field period length in the estimates of sexual victimization in a web based survey of college females",
+            "pubauthors_t": "Marcus,Berzofsky|012277; Christopher P,Krebs|010306; Christine H,Lindquist|009789; "
+        },
+        {
+            "pubauthors_s": "Marcus,Berzofsky|012277; Christopher P,Krebs|010306; Christine H,Lindquist|009789; ",
+            "pubdate_dt": "2016-12-15T12:00:00Z",
+            "pubtype_s": "Conference Proceeding",
+            "id": "62d44077-abcc-4639-8d2f-82798a03b233",
+            "abstract": "",
+            "title": [
+                "Assessing bias in respondent-driven incident based data from a survey of college students"
+            ],
+            "category": "Education & Workforce Development",
+            "titleprimary_s": "Assessing bias in respondent-driven incident based data from a survey of college students",
+            "pubauthors_t": "Marcus,Berzofsky|012277; Christopher P,Krebs|010306; Christine H,Lindquist|009789; "
+        },
+        {
+            "pubauthors_s": "Christine,Lindquist|009789; CM,Crosby|-1; Kelle,Barrick|015500; Christopher,Krebs|010306; B,Settles-Reaves|-1; ",
+            "pubdate_dt": "2016-04-26T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "353ec0db-a1bd-4871-b18d-e0643acb5b3e",
+            "abstract": "OBJECTIVE: To document the sexual assault disclosure experiences of historically black college or university (HBCU) students. PARTICIPANTS: A total of 3,951 female, undergraduate students at 4 HBCUs. METHODS: All women at the participating schools were recruited in November 2008 to participate in a Web-based survey including both closed- and open-ended questions. Survey data were weighted for nonresponse bias. RESULTS: The majority of sexual assault survivors disclosed their experience to someone close to them, but disclosure to formal supports, particularly law enforcement agencies, was extremely rare. Nonreporters had concerns about the seriousness of the incident and their privacy. On the basis of qualitative data, strategies identified by students to increase reporting included more education and awareness about sexual assault, more survivor services and alternative mechanisms for reporting, and better strategies for protecting the confidentiality of survivors. CONCLUSIONS: Official sexual assault victimization data are of limited utility in conveying the extent of sexual assault among HBCU students, and efforts to increase reporting, such as peer education and enhanced confidentiality procedures, are needed.",
+            "title": [
+                "Disclosure of sexual assault experiences among undergraduate women at historically black colleges and universities (HBCUs)"
+            ],
+            "category": "Health",
+            "titleprimary_s": "Disclosure of sexual assault experiences among undergraduate women at historically black colleges and universities (HBCUs)",
+            "pubauthors_t": "Christine,Lindquist|009789; CM,Crosby|-1; Kelle,Barrick|015500; Christopher,Krebs|010306; B,Settles-Reaves|-1; "
+        },
+        {
+            "pubauthors_s": "Ashley,Richards|019164; Marcus,Berzofsky|012277; Bonnie,Shook-Sa|-1; Christine,Lindquist|009789; Kimberly,Peterson|-1; Christopher,Krebs|010306; Michael,Planty|-1; Lynn,Langton|-1; Jessica,Stroop|-1; ",
+            "pubdate_dt": "2016-03-01T12:00:00Z",
+            "pubtype_s": "Conference Proceeding",
+            "id": "d4456eb7-3c97-4b20-9686-2d00c2fbdaa3",
+            "abstract": "",
+            "title": [
+                "The impact of greeting personalization on estimates of sexual assault victimization"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The impact of greeting personalization on estimates of sexual assault victimization",
+            "pubauthors_t": "Ashley,Richards|019164; Marcus,Berzofsky|012277; Bonnie,Shook-Sa|-1; Christine,Lindquist|009789; Kimberly,Peterson|-1; Christopher,Krebs|010306; Michael,Planty|-1; Lynn,Langton|-1; Jessica,Stroop|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; Ashley,Richards|019164; Marcus,Berzofsky|012277; Bonnie,Shook-Sa|-1; Kimberly,Peterson|-1; Michael,Planty|-1; Lynn,Langton|-1; Jessica,Stroop|-1; ",
+            "pubdate_dt": "2016-03-01T12:00:00Z",
+            "pubtype_s": "Conference Proceeding",
+            "id": "69fda17c-f6a2-48da-a7ad-ff83b04db107",
+            "abstract": "",
+            "title": [
+                "The impact of survey incentive amounts on response rates and estimates of sexual assault victimization"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The impact of survey incentive amounts on response rates and estimates of sexual assault victimization",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; Ashley,Richards|019164; Marcus,Berzofsky|012277; Bonnie,Shook-Sa|-1; Kimberly,Peterson|-1; Michael,Planty|-1; Lynn,Langton|-1; Jessica,Stroop|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; Marcus,Berzofsky|012277; Bonnie,Shook-Sa|-1; Kimberly,Peterson|-1; M,Planty|-1; L,Langton|-1; J,Stroop|-1; ",
+            "pubdate_dt": "2016-01-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "documentname_s": "CampusClimateSurvey_Krebs_Jan2016.pdf",
+            "id": "4d478215-e1c0-4568-b4de-8acd33ff6866",
+            "abstract": "Presents the results of a nine-school pilot test that was conducted to develop a campus climate survey that collects school-level data on sexual victimization of undergraduate students. The report describes the development of the survey instrument and procedures for data collection, nonresponse bias analysis, weighting, and validity assessment. It presents estimates for each school on the prevalence and incidence of sexual assault, rape, and sexual battery during the 2014–15 academic year, as well as characteristics of the victims and incidents. It also provides estimates of the prevalence of sexual assault since entering college and during the student’s lifetime. In addition, the report examines the relationship between measures of campus climate and rates of sexual victimization.",
+            "title": [
+                "Campus climate survey validation study. Final technical report",
+                "Campus Climate Survey Validation Study Final Technical Report"
+            ],
+            "titleprimary_s": "Campus climate survey validation study. Final technical report",
+            "category": "Other",
+            "documenturl_s": "/CampusClimateSurvey_Krebs_Jan2016.pdf",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; Marcus,Berzofsky|012277; Bonnie,Shook-Sa|-1; Kimberly,Peterson|-1; M,Planty|-1; L,Langton|-1; J,Stroop|-1; "
+        },
+        {
+            "pubauthors_s": "Rick,Williams|001753; David,Heller|009770; George,Couzens|018839; Bonnie,Shook-Sa|-1; Marcus,Berzofsky|012277; Hope,Smiley McDonald|009571; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2015-12-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "7572687d-64c9-41ea-8d6f-6d7017a419ca",
+            "abstract": "",
+            "title": [
+                "Evaluation of direct variance estimation, estimate reliability, and confidence intervals for the National Crime Victimization Survey"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Evaluation of direct variance estimation, estimate reliability, and confidence intervals for the National Crime Victimization Survey",
+            "pubauthors_t": "Rick,Williams|001753; David,Heller|009770; George,Couzens|018839; Bonnie,Shook-Sa|-1; Marcus,Berzofsky|012277; Hope,Smiley McDonald|009571; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; ",
+            "pubdate_dt": "2015-06-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "a20d4267-0b38-4027-86e8-e1df47c3e931",
+            "abstract": "",
+            "title": [
+                "Health service use and social vulnerability in a community-based sample of women on probation and parole,"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Health service use and social vulnerability in a community-based sample of women on probation and parole,",
+            "pubauthors_t": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; "
+        },
+        {
+            "pubauthors_s": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; ",
+            "pubdate_dt": "2015-06-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "0f6e5329-cb3a-49de-bf0f-4400616390cd",
+            "abstract": "",
+            "title": [
+                "Health service use and social vulnerability in a community-based sample of women on probation and parole"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Health service use and social vulnerability in a community-based sample of women on probation and parole",
+            "pubauthors_t": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; "
+        },
+        {
+            "pubauthors_s": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; ",
+            "pubdate_dt": "2014-12-01T12:00:00Z",
+            "pubtype_s": "Poster",
+            "id": "29d3c64d-d12f-4820-858a-8ddf74459fd2",
+            "abstract": "",
+            "title": [
+                "Social determinants of health among women recently in jail in Oakland, CA"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Social determinants of health among women recently in jail in Oakland, CA",
+            "pubauthors_t": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; "
+        },
+        {
+            "pubauthors_s": "George,Couzens|018839; Marcus,Berzofsky|012277; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2014-08-02T12:00:00Z",
+            "pubtype_s": "Conference Proceeding",
+            "id": "64ac34ae-8392-4674-a5db-72d1ccd1d677",
+            "abstract": "The National Crime Victimization Survey (NCVS) is a nationally-representative survey of the non-institutionalized U.S. population aged 12 and older and utilizes a 7-wave rotating panel design. Prior to 2006, first wave interviews were not used in crime victimization estimation - these interviews were used only to provide a temporal landmark for survey participants to control telescoping, ensuring that the second- through seventh-wave interviews had bounded reference periods. Beginning in 2006, the Bureau of Justice Statistics (BJS) began using first-wave interview data to produce estimates as a way to cut costs without sacrificing estimate precision. This change is significant in many ways, not the least of which is its potential for the introduction of multiple sources of bias. This paper addresses how the authors approached analysis of mode effect bias - one of the potential sources of error in the NCVS resulting from this change. Since first-wave interviews are primarily conducted in-person and second- through seventh-wave interviews are primarily conducted over the phone, the potential for mode effect bias is high. Quantifying this potential source of error is important for understanding how incorporation of first-wave data affects victimization estimates in the NCVS. After accounting for respondents' level of exposure to the NCVS, the difference in victimization rates between in-person and telephone groups is shown to be non-significant, suggesting the apparent mode effect is actually a symptom of respondent fatigue.",
+            "title": [
+                "Analyzing potential mode effects in the National Crime Victimization Survey"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Analyzing potential mode effects in the National Crime Victimization Survey",
+            "pubauthors_t": "George,Couzens|018839; Marcus,Berzofsky|012277; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; ",
+            "pubdate_dt": "2014-07-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "54ea12df-1030-4ff8-9a8b-64a2d2f9d496",
+            "abstract": "Rennison and Addington use National Crime Victimization Survey (NCVS) data to document the fact that college women experience violent victimization at a lower rate than women of the same age who do not attend college, which refutes the idea that women in college are at increased risk of being victimized. The measurement of victimization, especially sexual victimization, is, however, a topic that has be the source of much debate. Bureau of Justice Statistics is currently exploring what are the best methods for measuring sexual victimization within the NCVS, and recent methodological research, which is summarized in this article, could inform this process. Although consensus has seemingly been forming around come methods, such as using self-administered survey instruments and behaviorally specific questions when trying to measure sexual victimization, the jury is still out on some other design fronts. What is not clear is whether we need the jury to come in, so to speak. Some methodological variation might be acceptable, especially if the various methods being considered are producing similar results",
+            "title": [
+                "Measuring Sexual Victimization: On What Fronts is the Jury Still Out and Do We Need it to Come In?"
+            ],
+            "category": "Health",
+            "titleprimary_s": "Measuring Sexual Victimization: On What Fronts is the Jury Still Out and Do We Need it to Come In?",
+            "pubauthors_t": "Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; ",
+            "pubdate_dt": "2014-06-01T12:00:00Z",
+            "pubtype_s": "Poster",
+            "id": "eb6d0e3c-cd60-4f33-bfa7-cc3d334ac9f5",
+            "abstract": "",
+            "title": [
+                "Heightened vulnerability associated with criminal justice involvement among women who use drugs"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Heightened vulnerability associated with criminal justice involvement among women who use drugs",
+            "pubauthors_t": "Jennifer,Lorvick|013791; Megan,Comfort|020146; Christopher,Krebs|010306; A H,Kral|013749; "
+        },
+        {
+            "pubauthors_s": "Kelle,Barrick|015500; Christopher,Krebs|010306; Christine,Lindquist|009789; ",
+            "pubdate_dt": "2013-08-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "2c039305-2dc9-4ac7-aa3a-460e68314fc3",
+            "abstract": "Despite the evidence that young and minority women may be particularly vulnerable to intimate partner violence (IPV), there is little research on the IPV experiences of minority undergraduate women. This study addresses this gap by estimating the prevalence of IPV and examining factors associated with experiencing IPV among undergraduate women attending Historically Black Colleges or Universities (HBCUs). Findings suggest alarmingly high victimization rates; however, factors associated with IPV among HBCU women are similar to those found in prior research with women in the general population. The results also suggest that some risk factors are differentially associated with experiencing specific types of IPV.",
+            "title": [
+                "Intimate partner violence victimization among undergraduate women at Historically Black Colleges and Universities (HBCUs)"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Intimate partner violence victimization among undergraduate women at Historically Black Colleges and Universities (HBCUs)",
+            "pubauthors_t": "Kelle,Barrick|015500; Christopher,Krebs|010306; Christine,Lindquist|009789; "
+        },
+        {
+            "pubauthors_s": "Christine,Lindquist|009789; Kelle,Barrick|015500; Christopher,Krebs|010306; CM,Crosby|-1; AJ,Lockard|-1; K,Sanders-Phillips|-1; ",
+            "pubdate_dt": "2013-08-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "3c4bde30-2cb0-4a78-9c18-89650308cb2a",
+            "abstract": "To examine the context of sexual assault and postassault actions and consequences among women attending historically Black colleges or universities (HBCUs), web-based surveys were administered in November 2008 to 3,951 undergraduate women attending four HBCUs. Data on the context in which assaults occurred were generated for women who had been sexually assaulted since entering college (n = 358). Multivariate models were run on the full sample to examine the association between sexual assault and symptoms of depression and posttraumatic stress disorder (PTSD). Results indicated that most survivors were assaulted by assailants well known to them and when the survivor and perpetrator were drinking alcohol. Very few survivors disclosed their experiences to formal sources of support. Survivors had significantly more symptoms of depression and were more likely to screen positive for PTSD than nonvictims. Further research on disclosure and its moderating role on the mental health consequences of sexual assault is needed.",
+            "title": [
+                "The context and consequences of sexual assault among undergraduate women at historically black colleges and universities (HBCUs)"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The context and consequences of sexual assault among undergraduate women at historically black colleges and universities (HBCUs)",
+            "pubauthors_t": "Christine,Lindquist|009789; Kelle,Barrick|015500; Christopher,Krebs|010306; CM,Crosby|-1; AJ,Lockard|-1; K,Sanders-Phillips|-1; "
+        },
+        {
+            "pubauthors_s": "AJ,Beck|-1; Marcus,Berzofsky|012277; Rachel,Caspar|004128; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2013-05-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "d08757e8-204c-40e9-993c-fcc8018b5cc1",
+            "abstract": "Between February 2011 and May 2012, BJS completed the third National Inmate Survey (NIS-3) in 233 state and federal prisons, 358 jails, and 15 special confinement facilities operated by Immigration and Customs Enforcement (ICE), the U.S. Military, and correctional authorities in Indian country. The survey, conducted by RTI International (Research Triangle Park, North Carolina), was administered to 92,449 inmates age 18 or older, including 38,251 inmates in state and federal prisons, 52,926 in jails, 573 in ICE facilities, 539 in military facilities, and 160 in Indian country jails. The survey was also administered to juveniles ages 16 to 17 held in adult prisons and jails. Based on 527 completed interviews of<br/>juveniles in state prisons and 1,211 interviews in local jails, the NIS-3 provides the first-ever national estimates of sexual victimization of juveniles held in adult facilities.<br/><br/>The NIS-3 is part of the National Prison Rape Statistics Program, which collects reported sexual violence from administrative records and allegations of sexual<br/>victimization directly from victims through surveys of inmates in prisons and jails and surveys of youth held in juvenile correctional facilities. Administrative records have been collected annually since 2004. Reports by victims of sexual victimization have been collected since 2007.",
+            "title": [
+                "Sexual victimization in prisons and jails reported by inmates, 2011–12"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Sexual victimization in prisons and jails reported by inmates, 2011–12",
+            "pubauthors_t": "AJ,Beck|-1; Marcus,Berzofsky|012277; Rachel,Caspar|004128; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Mindy,Stahl|009291; Diana,Fishbein|-1; Tara,Warner|-1; Scott,Novak|013251; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2013-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "9d0c82b2-b17e-4ea9-a43d-fd0df9392d81",
+            "abstract": "",
+            "title": [
+                "Maternal depressive symptoms and adolescent alcohol use in Latino families: the mediating role of affective emotional regulation"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Maternal depressive symptoms and adolescent alcohol use in Latino families: the mediating role of affective emotional regulation",
+            "pubauthors_t": "Mindy,Stahl|009291; Diana,Fishbein|-1; Tara,Warner|-1; Scott,Novak|013251; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "M,Planty|-1; L,Langton|-1; Christopher,Krebs|010306; Marcus,Berzofsky|012277; Hope,Smiley McDonald|009571; ",
+            "pubdate_dt": "2013-03-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "b250bf97-854a-4e71-bee0-84ec57d32c6d",
+            "abstract": "From 1995 to 2005, the total rate of sexual violence committed against U.S. female residents age 12 or older declined 64% from a peak of 5.0 per 1,000 females in 1995 to 1.8 per 1,000 females in 2005 (figure 1, appendix table 1). It then remained unchanged from 2005 to 2010. Sexual violence against females includes completed, attempted, or threatened rape or sexual assault. In 2010, females nationwide experienced about 270,000 rape or sexual assault victimizations, compared to about 556,000 in 1995.<br/><br/>Completed rape or sexual assault accounted for more than 50% of the total rape or sexual violent victimizations in 2010. Between 1995 and 2010, the rate of completed rape or sexual assault declined from 3.6 per 1,000 females to 1.1 per 1,000. Over the same period, the rates of attempted rape or sexual assault and victimizations involving the threat of rape remained relatively stable.",
+            "title": [
+                "Female victims of sexual violence, 1994-2010"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Female victims of sexual violence, 1994-2010",
+            "pubauthors_t": "M,Planty|-1; L,Langton|-1; Christopher,Krebs|010306; Marcus,Berzofsky|012277; Hope,Smiley McDonald|009571; "
+        },
+        {
+            "pubauthors_s": "Lynn,Langton|-1; Marcus,Berzofsky|012277; Christopher,Krebs|010306; Hope,Smiley McDonald|009571; ",
+            "pubdate_dt": "2012-08-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "d77feae1-e542-436e-bf5e-b1715fe1b164",
+            "abstract": "",
+            "title": [
+                "Victimizations Not Reported to the Police, 2006-2010"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Victimizations Not Reported to the Police, 2006-2010",
+            "pubauthors_t": "Lynn,Langton|-1; Marcus,Berzofsky|012277; Christopher,Krebs|010306; Hope,Smiley McDonald|009571; "
+        },
+        {
+            "pubauthors_s": "L,Langton|-1; Marcus,Berzofsky|012277; Christopher,Krebs|010306; Hope,Smiley McDonald|009571; ",
+            "pubdate_dt": "2012-08-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "341d13cc-62f9-4e34-8bd9-d9859af8a130",
+            "abstract": "During the period from 2006 to 2010, 52% of all violent victimizations, or an annual average of 3,382,200 violent victimizations, were not reported to the police. Of these, over a third (34%) went unreported because the victim dealt with the crime in another way, such as reporting it to another official, like a guard, manager, or school official (figure 1). Almost 1 in 5 unreported violent victimizations (18%) were not reported because the victim believed the crime was not important enough.<br/><br/>When crimes are not reported to the police, victims may not be able to obtain necessary services to cope with the victimization, offenders may go unpunished, and law enforcement and community resources may be misallocated due to a lack of accurate information about local crime problems. Understanding the characteristics of crimes unknown to police, victims who do not report crimes, and the reasons these crimes are not reported may help identify gaps in the provision of criminal justice services and inform police practice and policies. Using data from the National Crime Victimization Survey, this report examines trends in the types of crime not reported to police, the characteristics of unreported victimizations, and the victims’ rationale for not reporting these crimes.",
+            "title": [
+                "Victimizations not reported to the police, 2006-2010"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Victimizations not reported to the police, 2006-2010",
+            "pubauthors_t": "L,Langton|-1; Marcus,Berzofsky|012277; Christopher,Krebs|010306; Hope,Smiley McDonald|009571; "
+        },
+        {
+            "pubauthors_s": "Kelle,Barrick|015500; Christopher,Krebs|010306; Christine,Lindquist|009789; C.,Moore|-1; Diane,Plummer|-1; ",
+            "pubdate_dt": "2012-03-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "53b0c336-a47c-40aa-aeaa-5e1031e1110e",
+            "abstract": "",
+            "title": [
+                "Factors associated with incidents of sexual assault among undergraduate women at Historically Black Colleges and Universities (HBCUs)"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Factors associated with incidents of sexual assault among undergraduate women at Historically Black Colleges and Universities (HBCUs)",
+            "pubauthors_t": "Kelle,Barrick|015500; Christopher,Krebs|010306; Christine,Lindquist|009789; C.,Moore|-1; Diane,Plummer|-1; "
+        },
+        {
+            "pubauthors_s": "Kelle,Barrick|015500; Christopher,Krebs|010306; Christine,Lindquist|009789; C,Moore|-1; D,Plummer|-1; ",
+            "pubdate_dt": "2012-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "937255be-cd46-4236-9508-d9402798ca2b",
+            "abstract": "Despite high rates of sexual assault among undergraduate women and evidence that the prevalence of sexual assault varies by race, virtually nothing is known about sexual assault experiences of undergraduate women who attend a historically black college or university (HBCU). The present study addresses this gap in the literature by examining factors associated with experiencing sexual assault victimization among HBCU women. Findings suggest that the factors associated with sexual assault among HBCU women are similar to those found in prior research of women at predominantly white universities and that some risk factors are differentially associated with experiencing specific types of sexual assault.",
+            "title": [
+                "Factors associated with incidents of sexual assault among undergraduate women at historically black colleges and universities"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Factors associated with incidents of sexual assault among undergraduate women at historically black colleges and universities",
+            "pubauthors_t": "Kelle,Barrick|015500; Christopher,Krebs|010306; Christine,Lindquist|009789; C,Moore|-1; D,Plummer|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Kelle,Barrick|015500; Christine,Lindquist|009789; CM,Crosby|-1; C,Boyd|-1; Y,Bogan|-1; ",
+            "pubdate_dt": "2011-12-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "6ad7201e-4ad1-4651-910a-8a4859205755",
+            "abstract": "Although research has shown that undergraduate women are at high risk for experiencing sexual assault, little research has been conducted with undergraduate women who are attending a historically Black college or university (HBCU). The purpose of this research is to document the prevalence of different types of sexual assault among undergraduate women at HBCUs and make comparisons to data collected from undergraduate women at non-HBCUs. Data on sexual assault victimization were collected from 3,951 undergraduate women at HBCUs using a cross-sectional, web-based survey. These data are compared to data collected from 5,446 undergraduate women at non-HBCUs using the same research methods. Finding sindicatethat approximately 9.7% of undergraduate women at HBCUs report experiencing a completed sexual assault since entering college. This rate is considerably lower than the comparable rate obtained from undergraduate women at non-HBCUs (13.7%). This difference seems to be associated with differences in alcohol-use frequency. Perhaps undergraduate women at HBCUs drink alcohol much less frequently and are thus less likely to be sexually assaulted when they are incapacitated and unable to provide consent. Alcohol use frequency, while controlling for other factors, seems to have an independent association with the likelihood of an undergraduate woman being sexually assaulted. Implications for the creation and delivery of sexual assault risk reduction and prevention policies and programs are discussed",
+            "title": [
+                "The Sexual Assault of Undergraduate Women at Historically Black Colleges and Universities (HBCUs)"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The Sexual Assault of Undergraduate Women at Historically Black Colleges and Universities (HBCUs)",
+            "pubauthors_t": "Christopher,Krebs|010306; Kelle,Barrick|015500; Christine,Lindquist|009789; CM,Crosby|-1; C,Boyd|-1; Y,Bogan|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; MJ,Breiding|-1; A,Browne|-1; T,Warner|-1; ",
+            "pubdate_dt": "2011-08-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "ce4c7f70-05db-45cc-b44a-af88a4b59c31",
+            "abstract": "Those who experience intimate partner violence (IPV) are often subjected to multiple types of victimization such as physical violence, sexual violence, psychological aggression, and stalking. However, relatively few studies have used a national population-based sample and multivariate methods to analyze the associations between these different types of violence. This study uses multivariate methods to analyze a national population-based sample of women in order to document empirically the extent to which different types of IPV overlap, while controlling for personal and behavioral characteristics. Results indicated significant levels of overlap, with victims often experiencing more than one type of victimization by an intimate partner. Findings also indicated that women who had experienced violence by non-intimate partners were often more likely to experience violence by intimates. Finally, women who had experienced stalking by an intimate were more likely to experience more forms of IPV on average than those who had experienced physical violence, sexual violence, or emotional aggression",
+            "title": [
+                "The association between different types of intimate partner violence experienced by women"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The association between different types of intimate partner violence experienced by women",
+            "pubauthors_t": "Christopher,Krebs|010306; MJ,Breiding|-1; A,Browne|-1; T,Warner|-1; "
+        },
+        {
+            "pubauthors_s": "Diana,Fishbein Launse|-1; Scott,Novak|013251; Christopher,Krebs|010306; T,Warner|-1; Jane,Hammond|-1; ",
+            "pubdate_dt": "2011-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "315632f2-2a3e-462b-b8cf-5a355cda4a01",
+            "abstract": "Stressful experiences such as childhood trauma and depressive symptoms have both been implicated in the initiation of drug use; however, longitudinal designs have not yet been used to elucidate their respective roles to better understand the causal sequence. In the present study, a sensitivity analysis was conducted using two mediation strategies to examine how this sequence may differ by various levels of statistical control, including (1) the standard mediational model in which the effect of lifetime traumatic stressors (Year 1) on the onset of drug use (Years 3 and 4) is mediated by levels of depressive symptoms (Year 2); and (2) a stronger test of causality such that the effect of lifetime traumatic stressors (Year 1) on the onset of drug use (Years 3 and 4) was mediated by changes in depressive symptoms (Year 1 to 2), measured by a residualized change score that controlled for levels in Year 1. Two types of trauma were studied in a community-based study of 489 Hispanic preadolescents (aged 10-12): (a) the number of lifetime traumatic stressors and (b) seven specific lifetime stressors. We also controlled for new onset traumatic stressors occurring between Years 1 and 2. Primary findings indicate that drug use initiation during early adolescence (e.g., ages 14-16) may not be tied to immediate proximal perturbations in risk factors, such as traumatic experiences and depressive symptoms. Rather, the effects of trauma on depression in this sample appear to be established earlier in childhood (ages 10-14 or younger) and persist in a relatively stable manner into middle adolescence when the risk for drug use may be heightened",
+            "title": [
+                "The mediating effect of depressive symptoms on the relationship between traumatic childhood experiences and drug use initiation"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The mediating effect of depressive symptoms on the relationship between traumatic childhood experiences and drug use initiation",
+            "pubauthors_t": "Diana,Fishbein Launse|-1; Scott,Novak|013251; Christopher,Krebs|010306; T,Warner|-1; Jane,Hammond|-1; "
+        },
+        {
+            "pubauthors_s": "SL,Martin|-1; BS,Fisher|-1; TD,Warner|-1; Christopher,Krebs|010306; Christine,Lindquist|009789; ",
+            "pubdate_dt": "2011-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "2756052e-5569-4485-bcaa-bf4a31fc6eca",
+            "abstract": "Purpose: We sought to examine relationships between women's sexual orientations and their sexual assault experiences before and during university. Methods: Self-reported responses on a web-based survey of 5,439 female undergraduates who participated in the Campus Sexual Assault study were analyzed to compare three groups: bisexuals, lesbians, and heterosexuals. Groups were compared in terms of the prevalence of sexual assault before and during university, and the extent to which sexual assault before university predicted sexual assault during university. Findings: The prevalence of sexual assault before and during university was higher among bisexuals and lesbians compared with heterosexuals (25.4% of bisexuals, 22.4% of lesbians, and 10.7% of heterosexuals were sexually assaulted before university; 24.0% of bisexuals, 17.9% of lesbians, and 13.3% of heterosexuals were sexually assaulted during university). Sexual assault before university was highly predictive of sexual assault during university, especially among non-heterosexuals. Compared with heterosexuals not sexually assaulted before university (the referent group), previously assaulted non-heterosexuals (bisexuals/lesbians) had eight times the odds of sexual assault during university (adjusted odds ratio [AOR] = 8.75), whereas previously assaulted heterosexuals had four times the odds of sexual assault during university (AOR, 4.40). However, there was no difference in the odds of sexual assault during university between non-heterosexuals not sexually assaulted before university and heterosexuals not sexually assaulted before university. Conclusion: Bisexual and lesbian women are more likely than heterosexual women to be sexually assaulted before and during university. Sexual assault before university is linked to sexual assault during university for all women, with this association being especially pronounced among non-heterosexuals. Copyright (C) 2011 by the Jacobs Institute of Women's Health. Published by Elsevier Inc",
+            "title": [
+                "Women's Sexual Orientations and Their Experiences of Sexual Assault Before and During University"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Women's Sexual Orientations and Their Experiences of Sexual Assault Before and During University",
+            "pubauthors_t": "SL,Martin|-1; BS,Fisher|-1; TD,Warner|-1; Christopher,Krebs|010306; Christine,Lindquist|009789; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; TD,Warner|-1; BS,Fisher|-1; SL,Martin|-1; JM,Childers|-1; ",
+            "pubdate_dt": "2011-02-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "2ef9c503-8b32-42b6-8f29-eeb712450ff7",
+            "abstract": "Concerns have been expressed about the validity of self-reported data on sexual assault, as victims might be reluctant to disclose what happened to them. In this study, using an anonymous, web-based survey, a sample of 5,446 undergraduate women were asked about their experiences with physically forced sexual assault using both direct and indirect questioning methods. The prevalence of physically forced sexual assault obtained via indirect questioning was slightly higher than, though not substantially or statistically different from, the estimate obtained via direct questioning. The results suggest that either direct questioning yields reasonably valid estimates of the prevalence of sexual assault or that the item count technique does not produce estimates that are any more valid",
+            "title": [
+                "Comparing sexual assault prevalence estimates obtained with direct and indirect questioning techniques"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Comparing sexual assault prevalence estimates obtained with direct and indirect questioning techniques",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; TD,Warner|-1; BS,Fisher|-1; SL,Martin|-1; JM,Childers|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; Kelle,Barrick|015500; ",
+            "pubdate_dt": "2010-12-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "23e97787-276e-4567-a314-80bfe9728b62",
+            "abstract": "",
+            "title": [
+                "The Historically Black College and University Campus Sexual Assault (HBCU-CSA) Study"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The Historically Black College and University Campus Sexual Assault (HBCU-CSA) Study",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; Kelle,Barrick|015500; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; Kelle,Barrick|015500; ",
+            "pubdate_dt": "2010-11-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "fe59d1f0-393c-4302-8d65-6cb8bef39b05",
+            "abstract": "Sexual assault has a substantial impact on both victims and society. Victims of sexual assault may suffer both immediate and long-term physical and mental health consequences, including injury, sexually transmitted diseases, and pregnancy (Holmes, Resnick, Kirkpatrick, &amp; Best, 1996). Victims of sexual assault report increasing their visits to physicians by 18% the year of the assault, by 56% the year after the assault, and by 31% two years after the assault (Koss, 1993). Four out of five rape victims subsequently suffer from chronic physical or psychological conditions (American Medical Association, 1995), and rape victims are 13 times more likely to attempt suicide than persons who have not been crime victims and 6 times more likely than victims of other crimes (Rape in America: A Report to the Nation, 1992). Overall, rape is believed to carry the highest annual victim cost of any crime: $127 billion (excluding child sex abuse cases). It is followed by assault at $93 billion per year, murder (excluding arson and drunk driving) at $61 billion per year, and child abuse at $56 billion per year (Miller, Cohen, &amp; Wiersema, 1996).<br/><br/>Given the substantial impact that sexual victimization has on individual victims and society, collecting information that advances our understanding of sexual assault, helps us prevent victimization, and better meets the needs of victims is critical. Although a considerable amount of research on sexual violence on college campuses has been conducted, very little of this research has involved historically<br/>black college and university (HBCU) students. As a result, there is a substantial gap in the literature and knowledge base about the magnitude of the problem, what is being done to reduce the problem, and what more can be done to prevent sexual violence and meet the needs of victims of sexual assault on HBCU campuses. The gap in research makes it difficult to fully understand the sexual assault experiences of African American students in general, given that almost 20% of African American baccalaureates receive their degree from HBCUs (Provasnik &amp; Shafer, 2004).",
+            "title": [
+                "The Historically Black College and University Campus Sexual Assault (HBCU-CSA) Study. Final report"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The Historically Black College and University Campus Sexual Assault (HBCU-CSA) Study. Final report",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; Kelle,Barrick|015500; "
+        },
+        {
+            "pubauthors_s": "AJ,Beck|-1; PM,Harrison|-1; Marcus,Berzofsky|012277; Rachel,Caspar|004128; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2010-08-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "f36b5917-da8c-4b5a-b448-7451b908be8f",
+            "abstract": "Between October 2008 and December 2009, BJS completed the second National Inmate Survey (NIS-2) in 167 state and federal prisons, 286 jails, and 10 special confinement facilities operated by Immigration and Customs Enforcement (ICE), the U.S. Military, and correctional authorities in Indian country. The survey, conducted by RTI International (Research Triangle Park, NC), was administered to 81,566 inmates ages 18 or older, including 32,029 inmates in state and federal prisons, 48,066 in jails, 957 in ICE facilities, 399 in military facilities, and 115 in Indian country jails.",
+            "title": [
+                "Sexual victimization in prisons and jails reported by inmates, 2008-09"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Sexual victimization in prisons and jails reported by inmates, 2008-09",
+            "pubauthors_t": "AJ,Beck|-1; PM,Harrison|-1; Marcus,Berzofsky|012277; Rachel,Caspar|004128; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Alexander,Cowell|009895; Pamela,Lattimore|009597; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2010-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "32c362c3-b43e-46d3-8cad-34a6787ceb23",
+            "abstract": "",
+            "title": [
+                "A Cost-Benefit Study of a Breaking the Cycle Program for Juveniles"
+            ],
+            "category": "Other",
+            "titleprimary_s": "A Cost-Benefit Study of a Breaking the Cycle Program for Juveniles",
+            "pubauthors_t": "Alexander,Cowell|009895; Pamela,Lattimore|009597; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Alexander,Cowell|009895; Pamela,Lattimore|009597; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2010-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "aa5a06c0-81ed-467a-899f-3fdf5b984828",
+            "abstract": "",
+            "title": [
+                "A cost-benefit study of a Juvenile Breaking the Cycle program"
+            ],
+            "category": "Other",
+            "titleprimary_s": "A cost-benefit study of a Juvenile Breaking the Cycle program",
+            "pubauthors_t": "Alexander,Cowell|009895; Pamela,Lattimore|009597; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Pamela,Lattimore|009597; Alexander,Cowell|009895; Phillip,Graham|008735; ",
+            "pubdate_dt": "2010-04-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "70edf3e7-6059-4ea9-bb8c-4a1d43c7c59f",
+            "abstract": "",
+            "title": [
+                "Evaluation of the juvenile breaking the cycle (JBTC) program's impact on recidivism"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Evaluation of the juvenile breaking the cycle (JBTC) program's impact on recidivism",
+            "pubauthors_t": "Christopher,Krebs|010306; Pamela,Lattimore|009597; Alexander,Cowell|009895; Phillip,Graham|008735; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Pamela,Lattimore|009597; Alexander,Cowell|009895; Phillip,Graham|008735; ",
+            "pubdate_dt": "2010-03-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "d85c4619-89f4-43a8-a8e8-a4993c87cb57",
+            "abstract": "",
+            "title": [
+                "Evaluating the Juvenile Breaking the Cycle Program's impact on recidivism"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Evaluating the Juvenile Breaking the Cycle Program's impact on recidivism",
+            "pubauthors_t": "Christopher,Krebs|010306; Pamela,Lattimore|009597; Alexander,Cowell|009895; Phillip,Graham|008735; "
+        },
+        {
+            "pubauthors_s": "Allen,Beck|-1; Paige,Harrison|-1; Marcus,Berzofsky|012277; Rachel,Caspar|004128; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2010-01-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "f83c84c8-d48f-47db-bb26-faa037e552ce",
+            "abstract": "",
+            "title": [
+                "Sexual victimization in prisons and jails reported by inmates, 2008–2009"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Sexual victimization in prisons and jails reported by inmates, 2008–2009",
+            "pubauthors_t": "Allen,Beck|-1; Paige,Harrison|-1; Marcus,Berzofsky|012277; Rachel,Caspar|004128; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Tara,Warner|-1; Diana,Fishbein Launse|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2010-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "83a9597d-96a0-4e22-a411-f4589f6e5fdc",
+            "abstract": "Rising rates of substance use among Hispanic youth, coupled with substantial growth of this minority group, merit grounds for concern. The process of assimilation is frequently examined in studies of Hispanic substance use and has been cited as a reason for higher rates of substance use by U.S.-born Hispanics, compared to their foreign-born peers. However, many previous studies use individual or unidimensional measures of assimilation, when this term is multifaceted, representing different concepts. The current study addresses this gap by testing the longitudinal effect of different assimilation processes (acculturation as well as structural, spatial, and straight-line assimilation), while simultaneously controlling for important familial and social risk and protective factors on the likelihood of alcohol use among U.S.-born Mexican and Mexican immigrant youth. Results indicate that, although alcohol use is higher among immigrant youth, assimilation measures do not predict alcohol use for immigrants or U.S.-born youth. We conclude that the effects of assimilation may vary by person and place, particularly in ethnic enclaves, and suggest the use of measures that incorporate cultural, personal, social, and environmental factors.",
+            "title": [
+                "The risk of assimilating? Alcohol use among immigrant and U.S.-born Mexican youth"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The risk of assimilating? Alcohol use among immigrant and U.S.-born Mexican youth",
+            "pubauthors_t": "Tara,Warner|-1; Diana,Fishbein Launse|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Diana,Fishbein Launse|-1; T,Warner|-1; Christopher,Krebs|010306; N,Trevarthen|-1; Barbara,Flannery|-1; Jane,Hammond|-1; ",
+            "pubdate_dt": "2009-11-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "b9237283-6876-4371-9ed8-9535e1a1b874",
+            "abstract": "Early adversity can alter development of neurocognition, including executive cognitive and emotional regulatory functions. This is the first study to explore differential relationships between personal (physical and emotional abuse and neglect, school and parental stressors) and community (neighborhood problems and witnessing neighborhood violence) stressors and neurocognition. Predominantly Latino children (n = 553) aged 10 to 12 years completed tasks measuring intelligence, impulsivity, problem solving, cognitive flexibility, decision making, and emotion attributions. Adjusting for age and parent education, bivariate regression analyses found exposure to personal stressors to be associated with relative deficits in at least one neurocognitive function. Community stressors were related to relative deficits in emotion attributions and problem solving. In multivariate analyses, neglect was related to misattributions of emotion and IQ deficits, and physical abuse was related to problem solving. Community stressors were not correlated with neurocognition when viewed relative to personal stressors. Stressor types were differentially associated with performance on specific neurocognitive tasks.",
+            "title": [
+                "Differential relationships between personal and community stressors and children’s neurocognitive functioning"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Differential relationships between personal and community stressors and children’s neurocognitive functioning",
+            "pubauthors_t": "Diana,Fishbein Launse|-1; T,Warner|-1; Christopher,Krebs|010306; N,Trevarthen|-1; Barbara,Flannery|-1; Jane,Hammond|-1; "
+        },
+        {
+            "pubauthors_s": "Diana,Fishbein|-1; Tara,Warner|-1; Christopher,Krebs|010306; Nancy,Trevarthen|-1; Barbara,Flannery|-1; Jane,Hammond|-1; ",
+            "pubdate_dt": "2009-11-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "d92ade96-717b-4b9e-a95a-fae688940887",
+            "abstract": "",
+            "title": [
+                "Differential Relationships Between Personal and Community Stressors and Children's Neurocognitive Functioning"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Differential Relationships Between Personal and Community Stressors and Children's Neurocognitive Functioning",
+            "pubauthors_t": "Diana,Fishbein|-1; Tara,Warner|-1; Christopher,Krebs|010306; Nancy,Trevarthen|-1; Barbara,Flannery|-1; Jane,Hammond|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Kevin,Strom|012034; WH,Koetse|-1; Pamela,Lattimore|009597; ",
+            "pubdate_dt": "2009-07-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "c38790e8-bbef-4c3e-9878-0261bff0def5",
+            "abstract": "A variety of approaches for addressing drug use and drug-related crime among the nearly 5 million offenders on community supervision in the United States has been tried and evaluated, but questions remain about which policies or programs are most effective. The authors use a large data set to assess the impact of residential and nonresidential drug treatment on recidivism. Propensity score matching is used to establish equivalent treatment and comparison groups and to enable comparisons of treatment type. Survival analysis is used to determine the extent to which each treatment modality and numerous covariates were associated with time until recidivism. Compared to those receiving no treatment, those receiving nonresidential treatment took longer to fail or recidivate. However, those receiving residential treatment did not differ from those who received no treatment in time to failure. In the treatment-only model, nonresidential treatment participants took longer to fail than their matched residential treatment counterparts.",
+            "title": [
+                "The impact of residential and nonresidential drug treatment on recidivism among drug-involved probationers"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The impact of residential and nonresidential drug treatment on recidivism among drug-involved probationers",
+            "pubauthors_t": "Christopher,Krebs|010306; Kevin,Strom|012034; WH,Koetse|-1; Pamela,Lattimore|009597; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Kevin,Strom|012034; Willem,Koetse|-1; Pamela,Lattimore|009597; ",
+            "pubdate_dt": "2009-06-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "017a19d4-510b-48cf-ae8d-8d650aba052c",
+            "abstract": "",
+            "title": [
+                "The impact of residential and non-residential drug treatment on recidivism among drug-involved probationers"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The impact of residential and non-residential drug treatment on recidivism among drug-involved probationers",
+            "pubauthors_t": "Christopher,Krebs|010306; Kevin,Strom|012034; Willem,Koetse|-1; Pamela,Lattimore|009597; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; TD,Warner|-1; BS,Fisher|-1; SL,Martin|-1; ",
+            "pubdate_dt": "2009-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "3218a448-398d-4179-b648-389f0fbd172c",
+            "abstract": "Objective: Research has shown associations between college women's alcohol and/or drug consumption and the risk of sexual assault, but few studies have measured the various means by which sexual assault is achieved.<br/><br/>Participants: The authors' Campus Sexual Assault Study obtained self-report data from a random sample of undergraduate women (N = 5,446).<br/><br/>Methods: The authors collected data on sexual assault victimization by using a cross-sectional, Web-based survey, and they conducted analyses assessing the role of substance use. The authors also compared victimizations before and during college, and across years of study.<br/><br/>Results: Findings indicate that almost 20% of undergraduate women experienced some type of completed sexual assault since entering college. Most sexual assaults occurred after women voluntarily consumed alcohol, whereas few occurred after women had been given a drug without their knowledge or consent.<br/><br/>Conclusions: The authors discuss implications for campus sexual assault prevention programs, including the need for integrated substance use and sexual victimization prevention programming.<br/>",
+            "title": [
+                "College women's experiences with physically forced, alcohol- or other drug-enabled, and drug-facilitated sexual assault before and since entering college"
+            ],
+            "category": "Other",
+            "titleprimary_s": "College women's experiences with physically forced, alcohol- or other drug-enabled, and drug-facilitated sexual assault before and since entering college",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; TD,Warner|-1; BS,Fisher|-1; SL,Martin|-1; "
+        },
+        {
+            "pubauthors_s": "Christine,Lindquist|009789; Christopher,Krebs|010306; Tara,Warner|-1; Pamela,Lattimore|009597; ",
+            "pubdate_dt": "2009-04-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "a2ed8093-ac31-41cb-84a7-8dc599bf897a",
+            "abstract": "Evidence is accumulating that drug court programs appear effective in reducing the substance use and recidivism of drug-involved offenders. As there is no single drug court model, programs vary from site to site and the extent to which individual programs are fully implemented is not well documented. The extent to which drug court programs deliver more extensive services to individual offenders than to comparable individuals not participating in drug courts is also not well understood. This paper presents an exploratory analysis of the supervision and treatment delivered to a sample of individuals participating in drug courts in Broward and Hillsborough counties, Florida, and to a sample of comparable drug-involved individuals who were sentenced to probation. Data are from in-person interviews conducted shortly after program entry and nine months following the “baseline” interview. Results suggest that the intensity of supervision and the likelihood of treatment were greater for those involved in drug court programs.",
+            "title": [
+                "An exploration of treatment and supervision intensity among drug court and non-drug court participants"
+            ],
+            "category": "Other",
+            "titleprimary_s": "An exploration of treatment and supervision intensity among drug court and non-drug court participants",
+            "pubauthors_t": "Christine,Lindquist|009789; Christopher,Krebs|010306; Tara,Warner|-1; Pamela,Lattimore|009597; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; Tara,Warner|-1; Bonnie,Fisher|-1; Sandra,Martin|-1; ",
+            "pubdate_dt": "2009-03-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "5490a009-a1ec-4f1f-bc84-c99ca69ce7b4",
+            "abstract": "",
+            "title": [
+                "The differential risk factors of physically forced and alcohol or other drug-enabled sexual assault among university women"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The differential risk factors of physically forced and alcohol or other drug-enabled sexual assault among university women",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; Tara,Warner|-1; Bonnie,Fisher|-1; Sandra,Martin|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; TD,Warner|-1; BS,Fisher|-1; SL,Martin|-1; ",
+            "pubdate_dt": "2009-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "47dda90a-7aeb-4b81-a87b-880f0758e224",
+            "abstract": "The Campus Sexual Assault Study examined whether undergraduate women's victimization experiences prior to college and lifestyle activities during college were differentially associated with the type of sexual assault they experienced: physically forced sexual assault and incapacitated sexual assault. Self-reported data collected using a Web-based survey administered to more than 5,000 undergraduate women at two large public universities indicated that victimization experiences before college were differentially associated with the risk of experiencing these two types of sexual assault during college. Women who experienced forced sexual assault before college were at very high risk of experiencing forced sexual assault during college (odds ratio [OR] = 6.6). Women who experienced incapacitated sexual assault before college were also at very high risk of experiencing incapacitated sexual assault during college (OR = 3.7). Moreover, women's substance use behaviors during college, including getting drunk and using marijuana, were strongly associated with experiencing incapacitated sexual assault but were not associated with experiencing forced sexual assault. Implications for education and prevention programs, as well as future research directions, are discussed",
+            "title": [
+                "The differential risk factors of physically forced and alcohol- or other drug-enabled sexual assault among university women"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The differential risk factors of physically forced and alcohol- or other drug-enabled sexual assault among university women",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; TD,Warner|-1; BS,Fisher|-1; SL,Martin|-1; "
+        },
+        {
+            "pubauthors_s": "TD,Warner|-1; Christopher,Krebs|010306; Diana,Fishbein Launse|-1; ",
+            "pubdate_dt": "2008-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "ecfaf2f0-a21e-4f8f-b0ea-50b32317d910",
+            "abstract": "The prevalence of substance use behavior and the personal characteristics and social and cultural factors that influence substance use among children have been studied extensively. However, much less attention has been directed at the attitudes towards, and particularly the perceived risks of, using substances, and even less research has focused on Hispanic youth, whose rates of substance use have been increasing. Understanding what factors are associated with perceived risk is important because there is evidence that perceived risk is associated with subsequent substance use. The current study uses longitudinal data collected from 553 children in the Cicero Youth Development (CYD) Project ... <br/><br/>",
+            "title": [
+                "Perceiving the risk of substance use: The roles of nativity, acculturation, and family support among Hispanic children"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Perceiving the risk of substance use: The roles of nativity, acculturation, and family support among Hispanic children",
+            "pubauthors_t": "TD,Warner|-1; Christopher,Krebs|010306; Diana,Fishbein Launse|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; Tara,Warner|-1; ",
+            "pubdate_dt": "2007-12-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "d35d1ab4-18cf-4889-be86-068a64b09ea8",
+            "abstract": "",
+            "title": [
+                "Prevalence, Context, and Reporting of Various Types of Sexual Assault on University Campuses"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Prevalence, Context, and Reporting of Various Types of Sexual Assault on University Campuses",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; Tara,Warner|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Christine,Lindquist|009789; W,Koetse|-1; Pamela,Lattimore|009597; ",
+            "pubdate_dt": "2007-11-02T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "804c4717-fcc7-4507-ac19-7fe20a44ec90",
+            "abstract": "",
+            "title": [
+                "Assessing the long-term impact of drug court participation on recidivism with generalized estimating equations"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Assessing the long-term impact of drug court participation on recidivism with generalized estimating equations",
+            "pubauthors_t": "Christopher,Krebs|010306; Christine,Lindquist|009789; W,Koetse|-1; Pamela,Lattimore|009597; "
+        },
+        {
+            "pubauthors_s": "Rachel,Caspar|004128; Christopher,Krebs|010306; Allen,Beck|-1; Paige,Harrison|-1; ",
+            "pubdate_dt": "2007-11-01T12:00:00Z",
+            "pubtype_s": "Conference Proceeding",
+            "id": "69dd477c-74ef-4011-b3e2-247f0f9edc13",
+            "abstract": "",
+            "title": [
+                "An Introduction to the National Inmate Survey"
+            ],
+            "category": "Other",
+            "titleprimary_s": "An Introduction to the National Inmate Survey",
+            "pubauthors_t": "Rachel,Caspar|004128; Christopher,Krebs|010306; Allen,Beck|-1; Paige,Harrison|-1; "
+        },
+        {
+            "pubauthors_s": "Mindy,Stahl|009291; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; ",
+            "pubdate_dt": "2007-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "103733ed-2648-42fa-881e-c224cee1e365",
+            "abstract": "",
+            "title": [
+                "Risk and Protective Factors for Methamphetamine Use and Nonnmedical Use of Prescription Stimulants among Young Adults Aged 18 to 25"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Risk and Protective Factors for Methamphetamine Use and Nonnmedical Use of Prescription Stimulants among Young Adults Aged 18 to 25",
+            "pubauthors_t": "Mindy,Stahl|009291; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; "
+        },
+        {
+            "pubauthors_s": "MA,Herman-Stahl|-1; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; ",
+            "pubdate_dt": "2007-05-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "eb594b67-f266-4c42-b0ac-140f3e6ff9ad",
+            "abstract": "This article reports on correlates of past-year nonmedical use of prescription stimulants and methamphetamine among young adults aged 18 to 25. Data from the 2002 National Survey on Drug Use and Health (NSDUH) were used to conduct logistic regression analyses of the demographic, psychosocial, and behavioral correlates of nonmedical stimulant use. The sample size was 23,645. Multivariate analyses revealed that selling drugs and using marijuana and other illegal drugs were associated with increased odds of both methampethamine and nonmedical prescription stimulant use. Females, individuals not enrolled in college, and those who had been arrested were more likely than their counterparts to have used methamphetamine, whereas black individuals and less religious individuals were less likely than their counterparts to have used methamphetamine. Psychological distress, sensation seeking, binge drinking, and college enrollment were associated with increased risks of nonmedical prescription stimulant use, whereas Hispanic and other ethnic identification were associated with decreased risks of nonmedical prescription stimulant use. Different intervention strategies are needed to prevent methamphetamine use versus nonmedical prescription stimulant use.<br/><br/>",
+            "title": [
+                "Risk and protective factors for methamphetamine use and nonmedical use of prescription stimulants among young adults aged 18 to 25"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Risk and protective factors for methamphetamine use and nonmedical use of prescription stimulants among young adults aged 18 to 25",
+            "pubauthors_t": "MA,Herman-Stahl|-1; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; "
+        },
+        {
+            "pubauthors_s": "Christine,Lindquist|009789; Christopher,Krebs|010306; Pamela,Lattimore|009597; ",
+            "pubdate_dt": "2006-12-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "e15e597c-38f1-4e9d-9c4f-767a3b8d8414",
+            "abstract": "",
+            "title": [
+                "Sanctions and rewards in drug court programs: Implementation, perceived efficacy, and decision making"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Sanctions and rewards in drug court programs: Implementation, perceived efficacy, and decision making",
+            "pubauthors_t": "Christine,Lindquist|009789; Christopher,Krebs|010306; Pamela,Lattimore|009597; "
+        },
+        {
+            "pubauthors_s": "MA,Herman-Stahl|-1; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; ",
+            "pubdate_dt": "2006-09-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "0866127c-4a21-4a12-a6f8-45270e18eb2f",
+            "abstract": "PURPOSE: This article reports on correlates of past-year nonmedical use of prescription stimulants and methamphetamine among adolescents aged 12 to 17 years. METHODS: Data from the 2002 National Survey of Drug Use and Health (NSDUH) were used to conduct logistic regression analyses of the demographic, psychosocial, and behavioral correlates of illicit stimulant use. The sample size was 17,709. RESULTS: Analyses revealed that mental health treatment utilization and use of marijuana and other illegal drugs were correlated with nonmedical use of prescription stimulants and methamphetamine among adolescents. Females and adolescents who reported low religiosity, binge drinking, and selling drugs were more likely to use methamphetamine than were males or individuals who did not report these attitudes or behaviors. Additionally, black adolescents were less likely than white adolescents to use methamphetamine. Alternatively, adolescents who reported high family conflict and sensation-seeking were more likely than their counterparts to use prescription stimulants nonmedically, and Hispanic adolescents were less likely to use prescription stimulants nonmedically than white adolescents. CONCLUSIONS: Risk for illicit use of stimulants varies by demographic, psychosocial, and behavioral factors. Different intervention mechanisms, populations, and settings should be targeted to prevent nonmedical use of prescription stimulants versus methamphetamine among adolescents",
+            "title": [
+                "Risk and protective factors for nonmedical use of prescription stimulants and methamphetamine among adolescents"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Risk and protective factors for nonmedical use of prescription stimulants and methamphetamine among adolescents",
+            "pubauthors_t": "MA,Herman-Stahl|-1; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; ",
+            "pubdate_dt": "2006-02-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "c7ac5839-e581-48ba-80b3-281e95180bac",
+            "abstract": "Research Summary: \n\n \n\nThe prevalence of AIDS infection is approximately four times higher in state and Federal prisons than among the general U.S. population. It is also apparent that high-risk HIV transmission behaviors occur inside prison; however, data that validly document cases of HIV transmission in prison are rare. This study uses data from a large sample of state prison inmates and logistic regression to determine what inmate characteristics are associated with contracting HIV inside prison. Findings indicate that inmates who are nonwhite and younger and who have been convicted of sexual crimes and have served longer sentences are more likely to contract HIV inside prison.\n\n\n\nPolicy Implications: \n\n\n\nDocumenting that HIV is transmitted inside prisons justifies the need for additional research and effective prevention strategies. Modeling what types of inmates might be at risk for contracting HIV inside prison can help public and correctional health researchers and officials improve their current prevention practices and ultimately reduce or prevent HIV transmission both inside and outside prison.",
+            "title": [
+                "Inmate factors associated with HIV transmission in prison"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Inmate factors associated with HIV transmission in prison",
+            "pubauthors_t": "Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Mindy,Stahl|009291; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; ",
+            "pubdate_dt": "2006-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "80082dd3-3506-492a-974f-15a7d7681097",
+            "abstract": "",
+            "title": [
+                "Risk and Protective Factors for Non-Medical Use of Prescription Stimulants and Methamphetamine among Adolescents"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Risk and Protective Factors for Non-Medical Use of Prescription Stimulants and Methamphetamine among Adolescents",
+            "pubauthors_t": "Mindy,Stahl|009291; Christopher,Krebs|010306; Larry,Kroutil|004578; David,Heller|009770; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Danielle,Steffey|009822; ",
+            "pubdate_dt": "2005-08-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "5dbda95c-cb1c-42c5-9bb8-a05fe6c38e3d",
+            "abstract": "The availability and use of club drugs have increased in the last decade. Media and researchers have responded with increased coverage and a variety of studies. Despite the increased attention, some of these drugs and the rave/club scene in which they seemingly gained popularity are relatively new. Questions remain about the people who use club drugs, how best to go about preventing or dealing with the use of these substances, and the social contexts, subcultures, and manner in which club drugs are used. Complicating matters, the use and users of club drugs seem to be continually evolving. Club drugs are reportedly now available and used in a wide variety of locations, and the users are changing demographically. Members of racial/ethnic groups who previously avoided club drugs are beginning to use these substances, and the average age of onset appears to be decreasing. Additional research on the epidemiology of club drug use among samples that are demographically and geographically diverse is needed. This study is an analysis of factors associated with several measures of club drug use among a sample of delinquent youth in Oregon. Descriptive, bivariate, and multivariate analyses are used to identify factors associated with club drug use and determine whether the current grouping of club drugs is appropriate. Findings indicate that users of club drugs are significantly different from delinquent youth who have not used club drugs on a number of dimensions, including age, engagement in risk behaviors, victimization, home environment, and rave attendance",
+            "title": [
+                "Club drug use among delinquent youth"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Club drug use among delinquent youth",
+            "pubauthors_t": "Christopher,Krebs|010306; Danielle,Steffey|009822; "
+        },
+        {
+            "pubauthors_s": "Pamela,Lattimore|009597; Christopher,Krebs|010306; W,Koetse|-1; Christine,Lindquist|009789; Alexander,Cowell|009895; ",
+            "pubdate_dt": "2005-07-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "08a85176-ef62-4519-bcb5-b9ba46a6489c",
+            "abstract": "Support for the effectiveness of substance abuse treatment to reduce substance use and recidivism among populations supervised by the criminal justice system continues to grow in substance abuse and criminal justice literature. Recent studies show that a variety of programs including the Breaking the Cycle program and drug courts appear to result in improved outcomes for offenders. In this paper, we examine the effect of non-residential substance abuse treatment on arrest. Our data are for almost 134,000 ‘drug-involved’ individuals sentenced to probation in Florida between July 1995 and June 2000. Nearly 52,000 of these individuals received non-residential substance abuse treatment, while 81,797 did not. Our approach is a methodologically simple one that entails stratifying our data by treatment status, estimating logit and negative binomial models of arrest for each of the two datasets, and then applying each model to both datasets. This approach, which requires that both groups include subjects for whom treatment is appropriate, is analogous to using regression models to predict outcomes for new values of independent variables. For each observation in the dataset, we use the models to predict the expected outcomes for each individual under two scenarios – receiving non-residential treatment and receiving no treatment. Summing over these individual estimates provides an estimate of the total numbers of arrests that would be expected under different levels of population exposure to treatment. Results suggest that non-residential treatment reduced both the expected numbers of individuals who recidivated (i.e., were arrested) and the expected total numbers of arrests in the 12 and 24 months following placement on supervision.",
+            "title": [
+                "Predicting the effect of substance abuse treatment on probationer recidivism"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Predicting the effect of substance abuse treatment on probationer recidivism",
+            "pubauthors_t": "Pamela,Lattimore|009597; Christopher,Krebs|010306; W,Koetse|-1; Christine,Lindquist|009789; Alexander,Cowell|009895; "
+        },
+        {
+            "pubauthors_s": "Pamela,Lattimore|009597; Christopher,Krebs|010306; Phillip,Graham|008735; Alexander,Cowell|009895; ",
+            "pubdate_dt": "2004-06-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "b3d0b629-3dfd-4028-9382-01efdf604cbe",
+            "abstract": "",
+            "title": [
+                "Evaluation of the Juvenile Breaking the Cycle Program"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Evaluation of the Juvenile Breaking the Cycle Program",
+            "pubauthors_t": "Pamela,Lattimore|009597; Christopher,Krebs|010306; Phillip,Graham|008735; Alexander,Cowell|009895; "
+        },
+        {
+            "pubauthors_s": "TM,Brady|-1; Christopher,Krebs|010306; Glen,Laird|-1; ",
+            "pubdate_dt": "2004-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "d0d764ad-737d-4c76-ac1a-8c176aba234d",
+            "abstract": "Many jail inmates have a history of mental illness, substance use, and drug-related crime. This article assesses the effect of psychiatric comorbidity on retention in jail-based substance abuse treatment. Secondary data from five jail-based substance abuse treatment programs were studied using descriptive and multivariate analyses. Controlling for age, sex, race, education, and program, the odds of an offender with a history of mental illness being terminated from treatment were nearly three times that of those with no such history. The data suggest that psychiatric comorbidity may be an important correlate of retention in jail-based substance abuse treatment",
+            "title": [
+                "Psychiatric comorbidity and not completing jail-based substance abuse treatment"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Psychiatric comorbidity and not completing jail-based substance abuse treatment",
+            "pubauthors_t": "TM,Brady|-1; Christopher,Krebs|010306; Glen,Laird|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; T,Brady|-1; Glen,Laird|-1; ",
+            "pubdate_dt": "2003-07-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "456b687b-a419-4e0d-8bf5-df7f022052fd",
+            "abstract": "Many jail inmates have a history of substance use and 'abuse'; few, however, receive comprehensive treatment for substance use disorders while in jail. The authors offer a longitudinal reanalysis of data from five jail-based substance user treatment programs. Survival analysis was used to identify client characteristics associated with length of time in treatment. Survival curves for the five programs were compared, indicating which ones retained inmates the longest. Results from a model stratified by jail site revealed that inmates over 25 years of age and those already sentenced had significantly longer treatment stays. The Substance Abuse Intervention Division (SAID) program, a modified therapeutic community in a New York jail, and the Deciding, Educating, Understanding, Counseling, and Evaluation (DEUCE) program, a curriculum-based intervention, had the longest survival curves and were, therefore, most effective at retaining inmates in treatment",
+            "title": [
+                "Jail-based substance user treatment: an analysis of retention"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Jail-based substance user treatment: an analysis of retention",
+            "pubauthors_t": "Christopher,Krebs|010306; T,Brady|-1; Glen,Laird|-1; "
+        },
+        {
+            "pubauthors_s": "Joyce,O'Neil|-1; Christopher,Krebs|010306; Willem,Koetse|-1; Allison,Forti|-1; Joseph,Rachal|-1; ",
+            "pubdate_dt": "2003-06-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "404a57dc-d10f-4acf-83c8-cc2c28c94398",
+            "abstract": "",
+            "title": [
+                "Substance Abuse and Need for Treatment among Missouri Jail Inmates, 2001"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Substance Abuse and Need for Treatment among Missouri Jail Inmates, 2001",
+            "pubauthors_t": "Joyce,O'Neil|-1; Christopher,Krebs|010306; Willem,Koetse|-1; Allison,Forti|-1; Joseph,Rachal|-1; "
+        },
+        {
+            "pubauthors_s": "DA,Jenks|-1; MT,Costelloe|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2003-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "c13ce7f6-e29f-4a88-a1ec-0f4ad763fc35",
+            "abstract": "This article identifies, describes, and analyzes the changes within the Prague Police during the post-Communist period. The Prague Police are the primary law enforcement entity in the capital, which is the largest city in the Czech Republic, one of two countries that constituted the fonner state of Czechoslovakia. The article focuses on the movement of the Prague Police toward a democratic policing organizational structure, stressing the successes and failures that they have encountered. Interviews with 12 key informants, supplemented by media accounts and a variety of other sources, are utilized to explore the unique experiences encountered by that agency. Results indicate that a great deal has been accomplished by the Prague Police in their efforts to move toward what is commonly defined as a democratic style of policing.",
+            "title": [
+                "After the fall: Czech police in a post-communist era"
+            ],
+            "category": "Other",
+            "titleprimary_s": "After the fall: Czech police in a post-communist era",
+            "pubauthors_t": "DA,Jenks|-1; MT,Costelloe|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; M,Costelloe|-1; D,Jenks|-1; ",
+            "pubdate_dt": "2003-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "cc521641-aaf3-4486-a26d-ce25e7d36258",
+            "abstract": "",
+            "title": [
+                "Drug control policy and smuggling innovation: A game-theoretic analysis"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Drug control policy and smuggling innovation: A game-theoretic analysis",
+            "pubauthors_t": "Christopher,Krebs|010306; M,Costelloe|-1; D,Jenks|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; M,Simmons|-1; ",
+            "pubdate_dt": "2002-10-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "5423aedc-7bba-417f-bf6a-28bb06148276",
+            "abstract": "The prevalence of AIDS infection is approximately five times higher in state and federal prisons than among the general U.S. population. It is also apparent that high-risk HIV transmission behaviors occur inside prison; however, data validly documenting instances of intraprison HIV transmission are rare. This study validly identifies 33 inmates in a large sample of state prison inmates who contracted HIV inside prison and presents data on how they likely contracted HIV. It further compares these inmates to inmates who did not contract HIV inside prison in terms of age, race, and level of education. Documenting the burden posed by HIV transmission inside prison, providing insight into how they contract HIV inside prison, and what types of inmates are at risk will help public and correctional health officials reform their current education and prevention practices and ultimately reduce or prevent HIV transmission both inside and outside prison",
+            "title": [
+                "Intraprison HIV transmission: an assessment of whether it occurs, how it occurs, and who is at risk"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Intraprison HIV transmission: an assessment of whether it occurs, how it occurs, and who is at risk",
+            "pubauthors_t": "Christopher,Krebs|010306; M,Simmons|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; Willem,Koetse|-1; Joyce,O'Neil|-1; Joseph,Rachal|-1; S,Record|-1; M,Duffy|-1; ",
+            "pubdate_dt": "2002-06-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "417ff694-0cfe-4c5a-aebb-93ba78c3409a",
+            "abstract": "",
+            "title": [
+                "Substance Abuse and Treatment Needs Among Entering Louisiana Prison Inmates"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Substance Abuse and Treatment Needs Among Entering Louisiana Prison Inmates",
+            "pubauthors_t": "Christopher,Krebs|010306; Willem,Koetse|-1; Joyce,O'Neil|-1; Joseph,Rachal|-1; S,Record|-1; M,Duffy|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; ",
+            "pubdate_dt": "2002-03-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "f6460607-1df3-4957-a482-5f0231f85ace",
+            "abstract": "Nearly two million people are currently housed in state and federal prisons. The rate of AIDS infection is 5 times higher in prisons than in the general population. High-risk HIV transmission behaviors take place inside prisons, and there is little doubt that intraprison HIV transmission occurs. What is not well understood is what determines whether high-risk HIV transmission behaviors occur and how they can be prevented inside prison. In this article, an integrated theoretical framework, which merges the importation and deprivation models of inmate behavior, is proposed to explain intraprison high-risk HIV transmission behavior. Data from an inmate survey suggest that sex and tattooing are the two most prevalent intraprison high-risk HIV transmission behaviors and that the majority of high-risk behavior in prison can be attributed to the deprivation model. These data, coupled with insightful inmate comments, carry important policy implications and should inform future HIV education and prevention efforts.",
+            "title": [
+                "High-risk HIV transmission behavior in prison and the prison subculture"
+            ],
+            "category": "Other",
+            "titleprimary_s": "High-risk HIV transmission behavior in prison and the prison subculture",
+            "pubauthors_t": "Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "M,Yeisley|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2002-01-01T12:00:00Z",
+            "pubtype_s": "Chapter",
+            "id": "1637cc6d-33f8-4baf-b7a1-eabbbd95a0a6",
+            "abstract": "The relationship between race and crime has been a primary concern among sociologists and criminologists since the beginning of the disciplines in America. Various racial and ethnic minorities in the United States have consistently been associated with higher rates of criminality, including peoples of Italian, Polish, Irish, German, Hispanic, and African descent, among others. Throughout history, most of the ‘‘high crime groups’’ have been newly immigrated populations. However, at the turn of the millenium, most of these groups seem to be distinguished predominantly by their skin color, residential location, and socioeconomic status. Hispanics and<br/>African Americans living in impoverished ghetto neighborhoods are subject to disproportionate police attention, and are overly represented in court dockets, jail and prison populations, media accounts of crime, street crime victims, and public<br/>fear of crime.",
+            "title": [
+                "Race and crime"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Race and crime",
+            "pubauthors_t": "M,Yeisley|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "DR,Stahly|-1; AK,Major|-1; Christopher,Krebs|010306; TL,Respress|-1; TG,Blomberg|-1; ",
+            "pubdate_dt": "2001-01-01T12:00:00Z",
+            "pubtype_s": "Chapter",
+            "id": "237b1631-8702-4aa2-a5dd-93d3de8c83c4",
+            "abstract": "",
+            "title": [
+                "Case studies of eight promising practice education programs"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Case studies of eight promising practice education programs",
+            "pubauthors_t": "DR,Stahly|-1; AK,Major|-1; Christopher,Krebs|010306; TL,Respress|-1; TG,Blomberg|-1; "
+        },
+        {
+            "pubauthors_s": "GP,Waldo|-1; MR,Yeisley|-1; Christopher,Krebs|010306; R,McEntire|-1; TG,Blomberg|-1; ",
+            "pubdate_dt": "2001-01-01T12:00:00Z",
+            "pubtype_s": "Chapter",
+            "id": "cf1391d6-dbe5-449c-9cfc-ade288bef88d",
+            "abstract": "",
+            "title": [
+                "Privatization in Florida juvenile justice education.”"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Privatization in Florida juvenile justice education.”",
+            "pubauthors_t": "GP,Waldo|-1; MR,Yeisley|-1; Christopher,Krebs|010306; R,McEntire|-1; TG,Blomberg|-1; "
+        },
+        {
+            "pubauthors_s": "G. P.,Waldo|-1; M. R.,Yeisley|-1; Christopher,Krebs|010306; R.,McEntire|-1; T.G.,Blomberg|-1; ",
+            "pubdate_dt": "2001-01-01T12:00:00Z",
+            "pubtype_s": "Book",
+            "id": "c1e83a65-297a-41f1-9d1e-1a86c8c226d2",
+            "abstract": "",
+            "title": [
+                "Privatization in Florida juvenile justice education"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Privatization in Florida juvenile justice education",
+            "pubauthors_t": "G. P.,Waldo|-1; M. R.,Yeisley|-1; Christopher,Krebs|010306; R.,McEntire|-1; T.G.,Blomberg|-1; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; MT,Costelloe|-1; D,Jenks|-1; ",
+            "pubdate_dt": "2000-09-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "8407318b-9219-47f9-a812-a04643f6532a",
+            "abstract": "As the intensity of the War on Drugs escalates, the social control of drug interdiction crosses international borders and employs more technologically advanced detection and apprehension tactics. In response to this intensification, drug traders develop advanced counter-surveillance strategies that diminish their chances of being detected and apprehended. This results in an interesting relationship between those who choose to indulge in drug-related behavior and agents who actively try to detect, identify, and apprehend drug traders. Drug traders appear to have recently gained the upper hand with the production of “Black Powder,” which represents the most innovative and effective anti-surveillance technique to date. Black powder is a simple industrial cloaking method that renders many surveillance strategies and chemical tests futile. Black powder is but one evolution in this exchange driven by tangible rewards, which results in intensified anti-drug strategies and an escalation of social control.",
+            "title": [
+                "Black powder drugs: An innovative response to drug control policy"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Black powder drugs: An innovative response to drug control policy",
+            "pubauthors_t": "Christopher,Krebs|010306; MT,Costelloe|-1; D,Jenks|-1; "
+        },
+        {
+            "pubauthors_s": "BH,Bullington|-1; Christopher,Krebs|010306; DW,Rasmussen|-1; ",
+            "pubdate_dt": "2000-01-01T12:00:00Z",
+            "pubtype_s": "Conference proceeding article (full paper published in book)",
+            "documentname_s": "325831416.pdf",
+            "id": "199abb64-8571-4f30-8260-cd559644fda5",
+            "abstract": "",
+            "title": [
+                "Drug policy in the Czech Republic"
+            ],
+            "titleprimary_s": "Drug policy in the Czech Republic",
+            "category": "Other",
+            "documenturl_s": "/325831416.pdf",
+            "pubauthors_t": "BH,Bullington|-1; Christopher,Krebs|010306; DW,Rasmussen|-1; "
+        },
+        {
+            "pubauthors_s": "M. R.,Yeisley|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "2000-01-01T12:00:00Z",
+            "pubtype_s": "Book",
+            "id": "d779c7f6-6cf3-466c-a179-b07a6c1ac8b9",
+            "abstract": "",
+            "title": [
+                "Race and crime."
+            ],
+            "category": "Other",
+            "titleprimary_s": "Race and crime.",
+            "pubauthors_t": "M. R.,Yeisley|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; B,Sever|-1; TR,Clear|-1; ",
+            "pubdate_dt": "1999-03-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "17d40ca4-797c-4a15-adab-4a83c7fa777d",
+            "abstract": "",
+            "title": [
+                "Disparate sentencing: A tragedy of the commons"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Disparate sentencing: A tragedy of the commons",
+            "pubauthors_t": "Christopher,Krebs|010306; B,Sever|-1; TR,Clear|-1; "
+        },
+        {
+            "pubauthors_s": "TR,Clear|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "1999-01-01T12:00:00Z",
+            "pubtype_s": "Chapter",
+            "id": "532b1e22-2e96-4d13-9f4f-7b60351bd627",
+            "abstract": "",
+            "title": [
+                "Prison"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Prison",
+            "pubauthors_t": "TR,Clear|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "B,Sever|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "1999-01-01T12:00:00Z",
+            "pubtype_s": "Journal Article",
+            "id": "f7ab31d4-6961-496d-ad01-5f9e91489103",
+            "abstract": "",
+            "title": [
+                "The tragedy of the commons in state prison use"
+            ],
+            "category": "Other",
+            "titleprimary_s": "The tragedy of the commons in state prison use",
+            "pubauthors_t": "B,Sever|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "T.,Clear|-1; Christopher,Krebs|010306; ",
+            "pubdate_dt": "1999-01-01T12:00:00Z",
+            "pubtype_s": "Book",
+            "id": "4a9bae7f-f267-44ba-8bd5-3642e4fa80da",
+            "abstract": "",
+            "title": [
+                "An American history of prison riots."
+            ],
+            "category": "Other",
+            "titleprimary_s": "An American history of prison riots.",
+            "pubauthors_t": "T.,Clear|-1; Christopher,Krebs|010306; "
+        },
+        {
+            "pubauthors_s": "Christopher,Krebs|010306; ",
+            "pubdate_dt": "1998-06-01T12:00:00Z",
+            "pubtype_s": "Report",
+            "id": "ce14cbb6-8646-49ae-bd62-80b78e370b83",
+            "abstract": "",
+            "title": [
+                "Intraprison HIV Transmission and Correctional Policy"
+            ],
+            "category": "Other",
+            "titleprimary_s": "Intraprison HIV Transmission and Correctional Policy",
+            "pubauthors_t": "Christopher,Krebs|010306; "
+        }
+    ],
+    "authorConnections": [{
+            "photoFile": null,
+            "pubCountCommon": 23,
+            "lastName": null,
+            "titleDesc": null,
+            "projectCount": 0,
+            "displayName": " Christine,Lindquist",
+            "officeBuildingCity": null,
+            "projectCountCommon": 0,
+            "pubCount": 101,
+            "officeBuildingState": null,
+            "firstName": null,
+            "middleName": null,
+            "gemsId": "009789",
+            "departmentDesc": null,
+            "dispOrder": 0
+        },
+        {
+            "photoFile": null,
+            "pubCountCommon": 13,
+            "lastName": null,
+            "titleDesc": null,
+            "projectCount": 0,
+            "displayName": " Marcus,Berzofsky",
+            "officeBuildingCity": null,
+            "projectCountCommon": 0,
+            "pubCount": 85,
+            "officeBuildingState": null,
+            "firstName": null,
+            "middleName": null,
+            "gemsId": "012277",
+            "departmentDesc": null,
+            "dispOrder": 1
+        },
+        {
+            "photoFile": null,
+            "pubCountCommon": 11,
+            "lastName": null,
+            "titleDesc": null,
+            "projectCount": 0,
+            "displayName": "Pamela,Lattimore",
+            "officeBuildingCity": null,
+            "projectCountCommon": 0,
+            "pubCount": 95,
+            "officeBuildingState": null,
+            "firstName": null,
+            "middleName": null,
+            "gemsId": "009597",
+            "departmentDesc": null,
+            "dispOrder": 2
+        },
+        {
+            "photoFile": null,
+            "pubCountCommon": 8,
+            "lastName": null,
+            "titleDesc": null,
+            "projectCount": 0,
+            "displayName": " Kelle,Barrick",
+            "officeBuildingCity": null,
+            "projectCountCommon": 0,
+            "pubCount": 54,
+            "officeBuildingState": null,
+            "firstName": null,
+            "middleName": null,
+            "gemsId": "015500",
+            "departmentDesc": null,
+            "dispOrder": 3
+        },
+        {
+            "photoFile": null,
+            "pubCountCommon": 6,
+            "lastName": null,
+            "titleDesc": null,
+            "projectCount": 0,
+            "displayName": " Alexander,Cowell",
+            "officeBuildingCity": null,
+            "projectCountCommon": 0,
+            "pubCount": 96,
+            "officeBuildingState": null,
+            "firstName": null,
+            "middleName": null,
+            "gemsId": "009895",
+            "departmentDesc": null,
+            "dispOrder": 4
+        }
+    ]
+}
