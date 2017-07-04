@@ -1,2 +1,3 @@
 -- sessions in node app (https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions)
 -- https://dzone.com/articles/securing-nodejs-managing-sessions-in-expressjs
+-- https://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619
