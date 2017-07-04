@@ -1,0 +1,1 @@
+-- sessions in node app (https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions)
