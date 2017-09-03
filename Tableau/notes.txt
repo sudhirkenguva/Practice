@@ -1,0 +1,14 @@
+https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/tableau-learning-path/
+
+
+In Tableau public:
+-- cannot connect to different databases.
+-- cannot export the worksheet as image/other format.
+
+
+
+IMP POINTS
+-- connecting different worksheets with different data sources.
+-- Filters across multiple worksheets
+-- 2 types of actions available in tableau i) Filtering ii) Highlighting
+-- We cannot join datasets from different data sources , we need to use blending

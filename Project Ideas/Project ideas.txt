@@ -1,0 +1,4 @@
+The best way to be good at s/w is to BUILD AS MANY PROJECTS AS YOU CAN.
+
+
+-- > https://thinkster.io/tutorials/mean-stack [tutorial to build redit clone]
