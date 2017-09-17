@@ -12,3 +12,8 @@ IMP POINTS
 -- Filters across multiple worksheets
 -- 2 types of actions available in tableau i) Filtering ii) Highlighting
 -- We cannot join datasets from different data sources , we need to use blending
+-- joining with multiple fields
+--> data --> edit relationships
+--> annotations in map
+--> filters, highlighting & parameters
+--> pivoting of data
