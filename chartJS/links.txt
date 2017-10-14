@@ -1,3 +1,0 @@
-https://www.sitepoint.com/creating-beautiful-charts-chart-js/
-
-check for dc.js and cross filters
