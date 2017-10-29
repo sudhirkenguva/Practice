@@ -1,0 +1,9 @@
+It has 6 channel Analog to Digital converter.
+
+Each channel corresponds to each pin (A0 - A5)
+
+Each input value is represented by 10 bits so 2^10 is 1024 values.
+
+So an analog signal maps 0 to 5 volts to value between 0 to 1023
+
+it takes 1 micro second to read analog signal.
