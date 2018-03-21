@@ -24,3 +24,7 @@ for (var k in myObject) {
     console.log( k, myObject[k] );
 }
 // "a" 2   , even though b exists , it is not enumurable.
+
+/*
+[object Object]
+*/

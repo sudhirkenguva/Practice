@@ -1,0 +1,39 @@
+Type Conversion (Coercion) :
+
+Automatic conversion of one type of value to other.
+
+Coercion can happen with JS functions, operators or methods.
+
+eg: the operands of the arithmatic operator (*) are coerced to numbers:
+
+> '3' * '4'
+12
+
+
+if one of the operands is a string, the plus operator (+) converts the other one to a string:
+
+> 3 + ' times'
+'3 times'
+
+
+Type Coercion Can Hide Bugs
+When we get user inputs, generally they will be of string format even when numbers entered.
+
+formData = {innerWidth:'100'}
+
+let iw = width;
+let  ow = width + 20;
+
+console.log(iw,ow); // 100 , 10020 (string)
+
+In these cases, we should convert them to numbers before hand
+like iw = Number(width)
+
+https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/  
+
+
+1.Primitive and their object counter parts
+
+2. toPrimitive --> valueOf() --> toString()
+
+https://javascriptweblog.wordpress.com/2010/05/03/the-value-of-valueof/
