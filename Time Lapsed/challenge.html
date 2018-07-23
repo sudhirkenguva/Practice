@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/moment.min.js"></script>
+        
+    </head>
+    <body style="text-align: center;">
+
+        <h1 id="dated">
+        
+        </h1>
+        
+        <script>
+            var today = moment();
+            var startDay = moment('2018-04-23 11:30:00');
+            var hoursSpent = today.diff(startDay, 'hours');
+            var days = hoursSpent / 24;
+            document.getElementById("dated").innerHTML = days.toFixed(2) + ' day(s) <br>'+hoursSpent+' hour(s)';
+        </script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+Scope of a variable: 
+    Its the locations in the program, where the variable is accessible.
+Lexical scoping: 
+    In JS variables are lexically (statically scoped), i.e. program structure will decide 
+    the scope of the variable.
+
+IIFE Applications
+    1. An IIFE enables you to attach private data to a function. 
+    Then you don’t have to declare a global variable and can tightly package the function 
+    with its state.You avoid polluting the global namespace:

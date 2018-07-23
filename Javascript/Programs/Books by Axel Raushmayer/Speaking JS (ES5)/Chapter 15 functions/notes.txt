@@ -1,0 +1,37 @@
+Function: 
+        its a piece of work
+        set of statements used to perform a specific task
+        block of code which can be called/executed multiple times. 
+In JS function take any of 3 roles.
+    standalone / non-method function
+        These are normal functions and can be called directly with name.
+    constructor function
+         These functions called with new keyword and return an object.
+         So these are the factory functions (just like classes in object oriented programming like C#, C++, Java).
+         by convention the name of these functions start with Uppercase. 
+    method
+      These are members of objects. 
+      called with <<object_name>>.<<method_name>>
+
+Parameter vs Argument
+    Parameter: these are the formal arguments, used in function definition. 
+    Argument:  these are the actual arguments, used in function calling.
+
+Standalone functions: 
+    In 3 ways we can create functions. 
+        1. using function expression. 
+            Function expression produces a value. 
+            Which needs to be assigned to a variable for calling the function. 
+        2. using function declaration. 
+            Most of the time, function declaration is preferred way of creating a function. 
+            Because of hoisting, function declarations automatically moves to top of the current scope. 
+            So we can call the function before its declaration. 
+        3. using function constructor.
+            Function constructors are used to dynamically create functions from strings.
+            -- But this approach many limitations, 
+                -- Its slow and may lead to security breaches. 
+                -- The created functions are always in global scope.  
+
+Function Arguments ('arguments' keyword)
+
+positional vs named params

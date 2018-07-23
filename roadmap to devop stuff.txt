@@ -1,0 +1,9 @@
+api knowledge
+
+angular deployment process from documentation
+
+node deployment process from documentation
+
+ci/cd, dockers, virtual containers
+
+aws --> remote servers
