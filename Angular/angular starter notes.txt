@@ -1,0 +1,5 @@
+ng new my-sassy-app --style=scss  --routing --skip-tests
+
+ng serve (During development)
+
+ng build -baseHref . -prod  (the code which will be moved to server)
