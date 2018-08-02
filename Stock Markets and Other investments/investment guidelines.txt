@@ -1,0 +1,131 @@
+1. Intra-day : highly dangerous, never opt it. 
+2. futures
+3. options
+4. currency
+5. commodity
+
+Buffet's mantra: BUY WHEN EVERYONE IS SELLING AND SELL WHEN EVERYBODY IS BUYING
+
+
+A Stock Portfolio should include stocks/shares from different industries and sectors, for downside protection (when one industry/sector falls, other can save)
+
+Stocks can be 
+i) Secular (people needs like healthcare, food, beverages, tobacco, wines etc), these stocks can give profits even with weak economy  
+ii) Cyclical (luxury, travels etc, these stocks need strong economy to give high returns)
+
+Types of stocks: 
+i) common stocks (high gains and high risk, no guarantee of dividend) vs preferred stocks (safter, guaranteed dividend, low returns)
+
+
+How/Why stock prices changes: 
+Stock price fundamentally depends on supply and demand. 
+When more people are interested to buy the stock, price will go high, in reverse case, it comes down
+
+Every company releases quaterly financial reports, investors pay lot of attention to these reports, if the performance is more than expectation, prices will go high
+
+Basically, investor sentiment and expectations will influence the stock price. 
+
+==============================================================================
+GREAT INVESTORS:
+==============================================================================
+Warrent Buffet (World's 2nd richest man alive!!) and Value Investing: 
+
+Traits that Warren Buffet Look for in a company before investing
+-- Great Management
+-- Shareholder oriented Management
+-- Business is simple to understand
+-- High quality product
+-- Advantge relative to competitors
+-- Growing earnings
+
+Philip Fisher, father of growth investment
+
+Here is Philip Fisher's 15-point checklist, which he used before investing in any stock. 
+
+1. Does the company have products or services with sufficient market potential to make possible a sizable increase in sales for at least several years?
+
+2. Does the management have a determination to continue to develop products or processes that will still further increase total sales potentials when the growth potentials of currently attractive product lines have largely been exploited?
+
+3. How effective are the company's research-and-development efforts in relation to its size?
+
+4. Does the company have an above-average sales organization?
+
+5. Does the company have a worthwhile profit margin?
+
+6. What is the company doing to maintain or improve profit margins?
+
+7. Does the company have outstanding labor and personnel relations?
+
+8. Does the company have outstanding executive relations?
+
+9. Does the company have depth and talent in its management?
+
+10. How good are the company's cost analysis and accounting controls?
+
+11. Are there other aspects of the business, somewhat peculiar to the industry involved, which will give the investor important clues as to how outstanding the company may be in relation to its competition?
+
+12. Does the company have a short-range or long-range outlook in regard to profits?
+
+13. In the foreseeable future will the growth of the company require sufficient equity financing so that the larger number of shares then outstanding will largely cancel the existing stockholders' benefit from this anticipated growth?
+
+14. Does management talk freely to investors about its affairs when things are going well but "clam up" when troubles and disappointments occur?
+
+15. Does the company have a management of unquestionable integrity?
+
+
+===============================================================
+Ability to read and understand financial statements
+===============================================================
+-- This is the most important for an investor.
+3 types: balance sheet, income statement and cashflow statement
+
+Balance Sheet (Assets and Liabilities): 
+Assets 
+	3 types of assets 
+		1) Current assets (Assets which can be converted into cash within 1 year, liquid cash is a current asset
+		2) Other assets
+		3) Property and Equipment
+	3 types of liabilities
+		1) Current liabilities
+		2) Long term liabilities
+		3) Differed income tax
+
+Income statement (Revenues and Expenses) --> net income
+
+
+cashflow statement -- cash inflows and outflows
+
+Investment Strategies: 
+	Fundamental and Technical Analysis
+	
+	Fundamental Analysis: 
+		It deals with the careful analysis of financial statements on different params like ; Assets, Liabilities, Revenues, Expenses etc.
+		Its more of mathematics
+		Its the corner stone of determination of well being of a company.
+		Real value of stock (not market value) is called, intrinsic values
+	Technical Analysis: 
+		It deals with the price movement of the stocks, the price patterns, it uses many charts, tools for identifying the pattern.
+
+		
+	Generally, Fundamental analysis is preferred for long-term investments
+			   While Technicla analysis is suitable for short-term investments
+	
+	Value investing (Warren Buffet's Stragey)
+	-- Simplicity: A business should be simple to understand
+	-- Brand Image: A business with strong brand image will have loyal customer base, so its safer. 
+	-- Earnings: A business has to increase its earnings.
+	-- Management: Leadership quality
+	There are two basic steps to finding undervalued stocks: 
+		i) developing a rough list of stocks you want to investigate further because they meet your basic screening criteria, 
+		ii) then doing a more in-depth analysis of these stocks by examining the financial data of the selected companies.
+		
+	Basic value investment ratio
+	P/E Ration
+	value investors like the P/E ratio to be as low as possible
+	Earnings Yield
+	value investors like the Earnings Yield to be as high as possible		   
+	
+
+		
+ 
+ 
