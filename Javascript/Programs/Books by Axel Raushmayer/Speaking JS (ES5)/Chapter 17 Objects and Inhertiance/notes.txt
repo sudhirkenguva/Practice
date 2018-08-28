@@ -1,0 +1,39 @@
+Javascript OOP can be viewed/studied in 4 layers: 
+--> Layer 1: With single object.
+--> Layer 2: With multiple objects using their protoypical relationship.
+--> Layer 3: With constructors (factories for instances)
+--> Layer 4: With inheritance in constructors
+
+Layer 1: With single object. 
+===========================
+--> We can create objects directly in JS (without class)
+--> We can add/delete properties
+--> We can prevent the objects from changing
+--> These can act as constructors (factories)
+
+-->Types of properties: 
+    -- properties (normal properties or methods)
+    -- accessors (get / set)
+    -- internal properties (which cannot be directly accessible using JS, 
+        hese properties always enclosed by double brackets [[]]
+        eg: [[Prototype]], it can be accessible through Object.getPrototypeOf() method)
+
+--> delete operator:
+    -- delete operator can delete own properties, it  CANNOT DELETE inherited properties
+    -- it returns false, when we try to delete object's own properties, 
+    in all other cases it returns true, (even when it doesnt change the object, 
+    eg; when we try to delete a property which is not exist yet.)  
+
+-- apply, call and bind methods
+ -- both apply and call method used to invoke/call a function with explicit 'this'
+ -- The difference is apply takes array of arguments while 
+    call takes normal comma separated list
+ -- bind method creates a new functions, 
+    with given this binding and prepending all the given params
+
+
+--this keyword:
+    -- In JS each function/method/object has implicit this keyword
+    -- Inside a function, in sloppy mode this refers to global object
+        in strict mode its undefined.
+    -- Inside a method, this refers to the object from which the method is invoked
