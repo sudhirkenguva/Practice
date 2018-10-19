@@ -1,0 +1,9 @@
+Bluebird package is preferred over inbuilt node promises and other 3rd party libraries, 
+for details on it check 'why bluebird' section of the documentation. 
+
+Promise.all takes array of promises as input and its promise handler(then()) will wait till all the promises completed, 
+If all are resolved, it returns the array of promise results. 
+If atleast one promise rejected, it returns with the error. 
+
+Promise.any is same as promise.all but only difference is it will look for any one promise
+resolution, 

@@ -1,0 +1,9 @@
+Course M001: 
+show dbs
+use <<db name>>
+
+db.<<collection_name>>.find().pretty()
+
+db.<<collection_name>>.insertOne({....})
+
+db.<<collection_name>>.insertMany([{....},{...},,],{ordered:false})

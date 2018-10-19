@@ -5,7 +5,7 @@ Javascript OOP can be viewed/studied in 4 layers:
 --> Layer 4: With inheritance in constructors
 
 Layer 1: With single object. 
-===========================
+============================
 --> We can create objects directly in JS (without class)
 --> We can add/delete properties
 --> We can prevent the objects from changing
@@ -31,9 +31,32 @@ Layer 1: With single object.
  -- bind method creates a new functions, 
     with given this binding and prepending all the given params
 
-
 --this keyword:
     -- In JS each function/method/object has implicit this keyword
     -- Inside a function, in sloppy mode this refers to global object
         in strict mode its undefined.
     -- Inside a method, this refers to the object from which the method is invoked
+
+Layer 2: With multiple objects using their protoypical relationship
+=======================================================================
+    -- Every object has an internal property called [[prototype]] 
+    which points to prototype object of the object. its value can be null as well. 
+    -- Prototype is the implementation of inheriance, an object inherits all the properties
+        of its prototype. 
+    -- When a property of an object is accessed, if its not present in the object, 
+    its prototype's property is accessed, if not found it checks the prototype of the 
+    prototype, similarly it continues till the prototype becomes null or 
+    accessed object found.
+    -- There are 3 ways we can protect the object. 
+        i) prevent extension: new properties cannot be added 
+        ii) seal : new properties cant be added, existing properties cannt be configurable
+        iii) freeze: new properties cant be added, existing props cant be configured, 
+            values cant be updated.
+
+Layer 3: Constructors - Factories for objects/instances
+==========================================================================
+-- A constructor is a function which is used to create similar objects.
+-- Its a normal function with different name, setup & invocation.
+-- A constructor function always invokes with new keyword. 
+-- Its name starts with Uppercase, unlike normal functions where it starts with lowercase. 
+
