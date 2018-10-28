@@ -1,0 +1,29 @@
+Course M001: 
+show dbs
+use <<db name>>
+
+db.<<collection_name>>.find().pretty()
+
+db.<<collection_name>>.insertOne({....})
+
+db.<<collection_name>>.insertMany([{....},{...},,],{ordered:false})
+by default insertMany has ordered flag is true, which means when it tries to preserve the order of insertion, so if any record insertion fails, the command fails
+
+but when ordered:true flag is supplied, it skips the docs with errors and continue to insert other docs.
+
+Object Id field: 
+The default object id is of length 12 bytes of hex code 
+
+4_3_2_3 
+<<4 bytes timestamp/date>>_<<3 bytes MAC id>>_<<2 bytes process id>>_<<3 bytes counter>>
+
+Counting the result set: count()
+db.<<collection_name>>.find().count()
+
+Finding for an array field: (lets say writer field is an array)
+--> Matching entire array (exactly in the given order and no element more or less)
+	db.col.find({writer:["abc","pqr"]})
+--> Matching any element in the array
+	db.col.find({writer:"abc"})
+--> Matching specific element in the array
+	db.col.find({"writer.2":"abc"})
