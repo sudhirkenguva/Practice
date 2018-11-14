@@ -27,3 +27,12 @@ Finding for an array field: (lets say writer field is an array)
 	db.col.find({writer:"abc"})
 --> Matching specific element in the array
 	db.col.find({"writer.2":"abc"})
+Other array elements are: 
+	--> $all
+	--> $elemMatch
+	--> $size
+Field update operator: 
+
+
+regex operators.
+why $and character is needed. 
