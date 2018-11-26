@@ -36,3 +36,228 @@ Field update operator:
 
 regex operators.
 why $and character is needed. 
+
+==> 	==> 	==> ==> 	==> 	==> ==> 	==> 	==> MONGO INDEXING: ==> 	==> 	==> ==> 	==> 	==> ==> 	==> 	==> 
+Advantage		: 
+				 Indexing is used to enhance the read/search query performance.
+
+Disadvantage	: 
+				  It adds overhead to write/update operation, because when any data is written/updated in a collection, all the
+				  indexes dependent on this fields need to recalculated. And its a synchronous operation i.e. until indexes
+				  are updated, write operation cannot be complete. 
+
+Restrictions: 
+
+Index Types / Categories	: 
+				  single field index (On single field) 
+				  	{name: 1}
+				  compound index (On more than one field) (order matters)
+				  	{name:1, age:1}
+				  multi key index (on arrays, mongoDb will automatically explode the array and creates multiple indexes )
+				  geo spatial index (2d [->Planar geometry] and 2d sphere indices [->	sphere geometry])
+				  text index 
+				  hashed index  
+
+Index options : 
+					==> Unique (duplicate values not allowed)
+					==> Partial (index will be created for records which match the given criteria, so index size will be less)
+					==> Sparse (an index entry for the document will be present only if the document contains the index key, otherwise the 
+					document is completely skipped)
+					==> TTL (documents will be deleted after the ttl time, by default the a background job will be run on every
+						60 secs but it can be changed)
+
+
+Covered queries	: A query is said to be covered, if its result can be fetched entirely from index without referring to actual 
+				  collection. These type of queries dramatically increase the performance as indexes are most likely to be in RAM
+				  and they are of less size than actual collection. 
+
+
+data structure: Mongodb uses B-Trees for implementing indexes.
+
+to list distinct values of a field
+db.<<col_name>>.distinct("field_name");
+db.<<col_name>>.distinct("field_name",query);
+
+$size operator is working with equality conditions only, like $size:1
+Note: altSpellings is an array here.
+
+db.countries.find({altSpellings:{$size:1}},{_id:0,altSpellings:1,"name.common":1});
+
+to get $size functionality with un-equalities, use the following query
+db.countries.find({altSpellings:{$exists:true},$where:"this.altSpellings.length > 1"},{_id:0,altSpellings:1,"name.common":1});
+
+==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==================== ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==>
+==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ||UPDATE OPERATORS || ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==>
+==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==================== ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==> ==>
+
+1) $currentDate
+setting a filed value to current date or current timestamp using $currentDate
+
+current date: 
+
+setting current timestamp: 
+db.values.update({_id:ObjectId("4d094f58c96767d7a0099d49")},{$currentDate:{<<field_name>>:{$type:"timestamp"}}});
+
+setting current Date: 
+db.values.update({_id:ObjectId("4d094f58c96767d7a0099d49")},{$currentDate:{date:true}});
+
+2) $inc: 
+It is used to add or subtract (when -ve value is specified) some value from the value of a field.
+It works with numeric values, for non-numeric values it gives value type error. 
+eg: db.values.update({"_id" : ObjectId("4d094f58c96767d7a0099d49")},{$inc:{high:0.25,low:-2}})
+
+3) $min: 
+when the given value is less than the existing value, then only value will be updated.
+db.values.update({"_id" : ObjectId("4d094f58c96767d7a0099d49")},{$min:{low: 20,high: 9}});
+
+4) $max: 
+when the given value is more than the existing value, then only it will be updated
+
+These $max, $min can work with number, dates and string values.
+
+5) $mul: 
+It multiplies a field value with given value. 
+It works only with numeric value. 
+
+6) $rename: 
+It performs 3 things: 
+	a) removes the old field.
+	b) removes the field with new name (if exists)
+	c) adds the  old field value with new field.
+db.values.update({"_id" : ObjectId("4d094f58c96767d7a0099d49")},{$rename: {"exchange":"exchange2","open":"open2"}});
+
+7) $unset: 
+It removes the specified field from the document. 
+
+Array update operator: 
+======================
+1) $[filterCond] ==> elements that satisfies the filterCond`
+
+2) $ ==> 1st element of the array
+
+3) $[] ==> all array elements
+
+adding elements to array: 
+4) $addToSet: (It adds the new elements to the array, if the element is not present already)
+db.students.update({_id:186},{$addToSet:{scores:{$each:[{type:"type1",score:10},{type:"type2",score:20}]}}});
+or
+db.students.update({_id:186},{$addToSet:{marks:{$each:[50,60,70]}}});
+
+5) $pop: to remove 1st (when -1 is given) or last (when 1 is given) element of the array. 
+db.students.update({_id:186},{$pop:{scores:1}});
+
+6)
+
+
+There are documents for each student (student_id) across a variety of classes (class_id). Note that not all
+ students in the same class have the same exact number of assessments. Some students have three homework assignments, etc.
+
+Your task is to calculate the class with the best average student performance. This involves calculating an average for each student 
+in each class of all non-quiz assessments and then averaging those numbers to get a class average. To be clear, each student's average 
+should include only exams and homework grades. Don't include their quiz scores in the calculation.
+
+What is the class_id which has the highest average student performance? Choose the correct class_id below.
+
+
+db.grades.aggregate([{$project:{
+					class_id:1,
+					student_id:1,
+					scores:{
+					$filter:{
+						input: "$scores",
+						as: "s",
+						cond: {$ne:["$$s.type","quiz"]}
+					}}}},
+					{$project:{
+						class_id:1,
+					student_id:1,
+					scores2:"$scores.score"
+					}},
+					{
+						$project: {
+							class_id:1,
+							student_id:1,
+							average: {$avg:"$scores2"}
+						}
+					},
+					{
+						$group:{_id:"$class_id",average: {$avg: "$average"}}
+					}
+					,{
+						 $sort : { average: -1} 
+					}])
+// ======================================================================
+
+For companies in our collection founded in 2004 and having 5 or more rounds of funding, 
+calculate the average amount raised in each round of funding. Which company meeting these criteria raised the smallest 
+average amount of money per funding round? You do not need to distinguish between currencies. Write an aggregation query to answer this question.
+
+As a check on your solution, Facebook had the largest funding round average.
+
+db.companies.aggregate([
+	{	
+		$match:{founded_year:2004}},
+	{
+		$project: {
+		name: 1,
+		funding_rounds:1,
+		raised_amounts:"$funding_rounds.raised_amount",
+		funding_round_count: {$size: "$funding_rounds"}
+		}
+	},
+	{
+		$match: {funding_round_count:{"$gte":5}}
+	},
+	{
+		$project: {
+			name: 1,
+			_id:0,
+			funding_round_avg: {$avg:"$raised_amounts"}
+		}
+	},
+	{
+		$sort: {
+			funding_round_avg: 1
+		}
+	}
+]); 
+
+Starting with the example we looked at for calculating the total number of relationships individuals have participated 
+in (in the CrunchBase data set):
+
+Write an aggregation query that will determine the number of unique companies with which an individual has been associated. 
+To test that you wrote your aggregation query correctly, from the choices below, select the number of unique companies that 
+Eric Di Benedetto (eric-di-benedetto) has been associated with. I've attached the CrunchBase data set for use in this problem.
+
+As a check on your work, the number of unique companies for roger-ehrenberg is 16, 
+for josh-stein is 14, and the number for tim-hanlon actually is 28.
+
+db.companies.aggregate([
+	{
+		$project: {
+			companyName: "$name",
+			persons: "$relationships.person.permalink"
+		}
+	},
+	{
+		$unwind:"$persons"
+	},
+	{
+		$group: {
+			_id: "$persons",
+			companyNames : {$addToSet:"$companyName"}
+		}
+	},
+	{
+		$match: {
+			_id:"eric-di-benedetto"
+		}
+	},
+	{
+		$project:{
+			_id:1,
+			companiesCount :{ $size: "$companyNames" }
+		}
+	},
+	
+])

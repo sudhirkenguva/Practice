@@ -26,3 +26,8 @@ tips:
 --> when you get stuck, get more information
 --> try to solve things on your own first (before asking someone help, first try to be)
 --> Finally good luck and have fun.
+
+Core of machine learning: 
+	data (you need to master data)
+	algorithms (master the algorithms and the feed the data)
+	end result (do the data preparation, processing and algo execution with end result in mind)

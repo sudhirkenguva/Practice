@@ -8,13 +8,13 @@ var p = new Promise(function(resolve,reject){
 
 var p2 = new Promise(function(resolve,reject){
     setTimeout(() => {
-        reject('2');
+        resolve('2');
     }, 1000);
 });
 
 var p3 = new Promise(function(resolve,reject){
     setTimeout(() => {
-        reject('3');
+        resolve('3');
     }, 999);
 });
 

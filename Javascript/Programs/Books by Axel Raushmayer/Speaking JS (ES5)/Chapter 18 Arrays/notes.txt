@@ -1,0 +1,3 @@
+In Javascript arrays are maps (dictionaries)
+    Hence arrays can have numeric as well as alphabetical keys.
+     

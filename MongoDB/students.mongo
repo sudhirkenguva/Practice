@@ -1,0 +1,7 @@
+// data inserted from https://github.com/ozlerhakan/mongodb-json-files/blob/master/datasets/students.json
+
+
+db.students.find().sort({_id:1})
+
+db.students.find().limit(250);
+
