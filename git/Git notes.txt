@@ -1,0 +1,4 @@
+HISTORY: 
+ -- During the development of Linux, its developer Linus Torvalds felt the necessity of good version control system
+    for the code base, so he decided to built his own which is git. 
+ -- It is born in April 2015, in later from July its maintained by Junio Hamano
