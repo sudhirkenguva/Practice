@@ -1,4 +1,8 @@
 HISTORY: 
- -- During the development of Linux, its developer Linus Torvalds felt the necessity of good version control system
-    for the code base, so he decided to built his own which is git. 
+ -- During the development of Linux, its developer Linus Torvalds felt the necessity of good version control system for the code base, so he decided to built his own which is git. 
  -- It is born in April 2015, in later from July its maintained by Junio Hamano
+
+ Git Objects: 
+   Git objects are the actual data of the git. 
+   These are stored GIT DATABASE inside .git directory
+   There are 4 types of git objects present. 
