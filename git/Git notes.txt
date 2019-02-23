@@ -1,8 +1,32 @@
 HISTORY: 
  -- During the development of Linux, its developer Linus Torvalds felt the necessity of good version control system for the code base, so he decided to built his own which is git. 
- -- It is born in April 2015, in later from July its maintained by Junio Hamano
+ -- git is born in April 2015, in later from July its maintained by Junio Hamano
 
  Git Objects: 
-   Git objects are the actual data of the git. 
-   These are stored GIT DATABASE inside .git directory
+   Git objects are the actual data of the git. These are the main things that git repo is made up of.  
+   These are stored in GIT DATABASE inside .git directory
+   Each object is compressed (by Zlib) and referenced by SHA-1 value of its content plus a small header. 
    There are 4 types of git objects present. 
+    1. blob: 
+       File contents are stored as blobs.(but not their names or modes). i.e. if 2 files with different names/modes but same content then there will be single blob for them.
+    2. tree:
+       Directories will correspond to trees, which contains information about other trees, blobs (corresponding file names) under them.  
+    3. commit: 
+       It tracks the history
+       Most importantly, a commit refers to a tree, with some additional info like, parent commit (if any), author, commit message etc. 
+    4. tag: 
+       Tags are the permanent shorthand notation for a commit, these tags contains info like tag, tagger, commit etc.
+ Git Data Model: 
+   git uses DAG (Directed acyclic Graph) model, briefly, each blob corresponds to file content, tree refers to directories contains other trees/blobs, commit refers to a tree
+   In addition to above mentioned objects, git also has 'references', 
+   Examples of references are the branches and remotes.
+    A branch is simply a file in refs/heads, which points to the latest commit of that branch. when further commits made, the pointer just updates to latest commit. 
+
+
+==================================================
+Need further study: 
+--> SHA-1: SHA stands for secure hash algo.
+--> Zlib compression
+--> blob
+--> git hooks executes scripts, we can do some interesting stuffs with this, spend some time on these things. and do some experimentation, prepare an youtube video on this. 
+==================================================
