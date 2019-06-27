@@ -1,8 +1,8 @@
 // The following function is promisified version of fs function
 
 let fileSystem = require('fs');
-let fileName = process.argv[2];
-let promisifiedFileRead = function(file) {
+let fileName = "test.txt"
+let promisifiedFileRead = function(fileName) {
     return new Promise((resolve, reject) => {
         fileSystem.readFile(fileName, { encoding: 'utf-8' }, (err, content) => {
             if (err) {
@@ -10,7 +10,6 @@ let promisifiedFileRead = function(file) {
             } else {
                 resolve(content);
             }
-
         });
     })
 };

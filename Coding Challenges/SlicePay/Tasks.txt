@@ -1,0 +1,39 @@
+-- Dump the given data in a mongo collection. -- done
+    command used: 
+    mongoimport --db stocks --collection stockArchives --ignoreBlanks --type csv --headerline --file /home/sudhirkenguva/Downloads/prices763fefc.csv
+
+
+-- Create a generic project skeleton -- done
+-- Add mongoose ORM 
+-- List out all the required APIs with routes and params.  
+        i) companySearch: This service should take a company name and returns all the price points of that company over the entire duration.
+            route: stockData/companySearch
+            method: get
+            params: company name
+            madatory header : apiKey
+            response type : application/json
+            
+        ii) timeFrame: This service should take two dates as input and should return 10 best performing and 10 least performing stocks in that time frame.
+            route: stockData/stockPerformance
+            method: get
+            params: from, to
+            madatory header : apiKey
+            response type : application/json
+
+        iii) stocksInTime: This service should accept two parameters, “any number of stock tickers in a list” and “two dates”. This will return all the highs, lows and closes of these stocks in the desired time frame.
+            route: stockData/stocksInTime
+            method: get
+            params: array of ticker symbols, duration
+            madatory header : apiKey
+            response type : application/json
+        
+        iv) tickerSearch: This service should take the ticker symbol and should return all the price points in time of that ticker.
+            route: stockData/tickerSearch
+            method: get
+            params: ticker symbol
+            madatory header : apiKey
+            response type : application/json
+
+
+-- Add apiKey validation and Handle it at middleware 
+-- add status codes and error messages
