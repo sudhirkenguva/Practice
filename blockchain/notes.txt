@@ -1,0 +1,20 @@
+Computing types: 
+   --> centralised (like main-frames)
+   --> cloud / client-server
+   --> completely de-centralized
+
+Distributed ledger will allow us to shift towards completely de-centralized computing: 
+Briefly "Distributed ledgers give explicit control of digital-assets to end-users, without requiring to trust any third-party servers or infra-structures"
+
+Ledger: In a general sense, ledger is a financial recording keeping book
+
+Distributed (digital) Ledger: Its a data structures, which resides across multiple devices, locations and regions. 
+
+Distributed Ledger Technology (DLT): It consists of 3 things: 
+                                   i) A data model that captures the current state of ledger (set of transactions)
+                                  ii) A language of transaction that changes the state of ledger
+                                 iii) A protocol used to build the consesus (agreement) among the participants, around which transactions will be accepted by the ledger.
+
+BLOCKCHAIN IS A DISTRIBUTED LEDGER + CONSENSUS + SMART CONTRACTS + Any other assistive technologies
+
+Smart contracts are the computer programs which will be triggered when certain conditions are met.  

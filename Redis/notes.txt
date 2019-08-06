@@ -1,0 +1,9 @@
+Nosql database:
+    --> There are mainly 4 types of Nosql databases: 
+        i. key / value, ii. document iii.column iv. graph
+
+Redis: Redis is a multi-model database. 
+       It supports multiple data models like key / value, graph etc.
+
+Redis Datastructures: 
+    strings, set, sorted set, lists, hashes

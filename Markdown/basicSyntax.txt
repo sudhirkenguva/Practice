@@ -1,0 +1,56 @@
+# Header level 1
+## Header level 2
+### Header level 3
+#### Header level 4
+##### Header level 5
+###### Header level 6
+
+*italic*
+**bold**
+***bold and italic***
+~~**strike through**~~
+
+Lists: 
+* Unordered item1
+* Unordered item2
+* Unordered item3
+* Unordered item4
+ 
+1. Ordered item1
+2. Ordered item2
+3. Ordered item3
+
+In line code has back ticks `console.log(test)`. skdjfsfsdf
+
+code blocks need triple back ticks with language name
+```javascript
+var a = 5;
+var b = 6;
+console.log(a+b);
+```
+
+```c
+int a = 10;
+int b = 1;
+printf("Sum = ",(a+b));
+```
+
+Tables: 
+A |B | C
+--- | --- | ---
+1 | 2 | 3
+4 | 5 | 6
+7 | 8 | 9
+
+block quotes need >
+
+> arise, awake and stop not till the goal is reached.
+
+
+
+
+
+
+
+
+
