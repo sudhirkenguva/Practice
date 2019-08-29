@@ -1,20 +1,293 @@
 Computing types: 
-   --> centralised (like main-frames)
+   --> centralized (like main-frames)
    --> cloud / client-server
    --> completely de-centralized
 
 Distributed ledger will allow us to shift towards completely de-centralized computing: 
 Briefly "Distributed ledgers give explicit control of digital-assets to end-users, without requiring to trust any third-party servers or infra-structures"
 
-Ledger: In a general sense, ledger is a financial recording keeping book
+Ledger: In a general sense, ledger is a financial record keeping book
 
 Distributed (digital) Ledger: Its a data structures, which resides across multiple devices, locations and regions. 
 
 Distributed Ledger Technology (DLT): It consists of 3 things: 
                                    i) A data model that captures the current state of ledger (set of transactions)
                                   ii) A language of transaction that changes the state of ledger
-                                 iii) A protocol used to build the consesus (agreement) among the participants, around which transactions will be accepted by the ledger.
+                                 iii) A protocol used to build the consensus (agreement) among the participants, around which transactions will be accepted by the ledger.
 
 BLOCKCHAIN IS A DISTRIBUTED LEDGER + CONSENSUS + SMART CONTRACTS + Any other assistive technologies
 
-Smart contracts are the computer programs which will be triggered when certain conditions are met.  
+Smart contracts are the computer programs which will be triggered when certain conditions are met.  (In hyperledger fabric, smart contracts are called chain codes)
+
+Hyperledger
+============
+Hyperledger is a platform for cross-industry blockchain technologies.
+It incubates and promotes range of blockchain technologies like distributed ledger frameworks, smart contract engines, client libraries, graphical interfaces, utility libraries, sample applications etc.
+
+Hyperledger blockchains are premissioned blockchains (Only authorized parties can join the network, unlike bitcoin or etherium)
+
+As of May 2019, there are 14 (6 Distributed ledger frameworks + 8 tools) projects in the Hyperledger greenhouse. 
+
+6 Distributed ledger frameworks include: (Frameworks used to build blockchains/distributed ledgers)
+--> Burrow
+--> Fabric 
+--> Grid
+--> Indy
+--> Iroha
+--> Sawtooth
+
+8 Tools include: (Tools are used for auxiliary things like design, deployment, maintainence, examining data on the ledger etc.)
+--> Aries [focused on creating, transmitting and storing verifiable digital credentials.]
+--> Caliper (Performance benchmark)
+--> Cello (cloud Deployment)
+--> Composer (for designing / prototyping blockchain networks, generating rest apis, UIs )
+--> Explorer (dashboard for understanding the network)
+--> Quilt (ILP --> Inter Ledger Protocol tool)
+--> Transact (Transaction execution scheduling)
+--> Ursa (Cryptographic library)
+
+note: Cello, Composer and Explorer are the good fit to work with Hyperledger
+
+Business uses of Blockchain: 
+Finance Industry: Transferring assets and Trade agreement   
+Legal Industry: Recording and Transferring property rights
+Insurance Industry: Moving the control from insurance agencies to actual users.
+Healthcare Industry: Storing and sharing patient health records, pharmacy information. 
+Supply chain: 
+
+
+Blockchain can disrupt any industry that relies on a central authority to confirm authenticity.
+Hyperledger blockchains in production: 
+
+Blockchain in supply chain industry can add following values: ensures goods quality, avoids under stocking and over stocking
+
+https://www.hyperledger.org/resources/publications/walmart-case-study
+
+
+Digital Signature: 
+https://www.youtube.com/watch?v=TmA2QWSLSPg
+Digital signatures ensures the data 
+
+SENDER: 
+1. Sender creates a pair of keys [PUBLIC & PRIVATE KEYS]
+2. Hashes the message using a hashing algo to create a DIGEST
+3. DIGEST will be encrypted with PRIVATE KEY which is called the DIGITAL SIGNATURE
+4. Sender sends the plain message with the DIGITAL SIGNATURE
+
+RECEIVER: 
+1. Receiver receives the plain text and DIGITAL SIGNATURE. 
+2. DIGITAL SIGNATURE is decrypted using sender's PUBLIC KEY to retrieve the DIGEST. 
+3. Sender generates the DIGEST from plain text (message) and checks if it matches with the DIGEST he received. 
+
+Closer look at Blockchain
+=========================
+It allows for the sharing of a ledger of activity — such as arbitrary data or tokens to which value is assigned — between multiple parties. 
+
+A distributed ledger can take over many of the functions performed by central third parties, by enabling the network itself to be the intermediary.
+
+Blockchain has following 4 characteristics:
+--> Consensus
+--> Provenance
+--> Immutability
+--> Finality
+
+4 keys concepts in blockchain: 
+--> Shared Ledger
+--> Consensus
+--> Permissions 
+--> Smart Contracts
+====================================================================================
+https://hyperledger-fabric.readthedocs.io/
+Smart contracts: 
+   consistent update of ledger
+   The piece of code / logic for consistent update of information by allowing controlled access to ledger. 
+
+Consensus:
+   keeping the ledger transactions synchronized across the network
+   It ensures, 
+   Approve transactions, at approved time, in correct order
+
+Unlike today’s systems, where a participant’s private programs are used to update their private ledgers, a blockchain system has shared programs to update shared ledgers.
+
+Hyperledger Fabric: 
+Permissioned and Private
+
+If two participants form a channel, then those participants — and no others — have copies of the ledger for that channel.
+
+smart contracts
+Fabric smart contracts are written in chaincode and are invoked by an application external to the blockchain when that application needs to interact with the ledger
+
+Consensus
+Transactions must be written to the ledger in the order in which they occur, even though they might be between different sets of participants within the network. For this to happen, the order of transactions must be established and a method for rejecting bad transactions that have been inserted into the ledger in error (or maliciously) must be put into place.
+Fabric currently have the consensus schemes: SOLO, Kafka, and Raft
+
+Hyperledger Fabric Functionalities
+=======================================
+Identity management (Membership Identity Service)
+
+Privacy and confidentiality (Through channels)
+-> Private channels are restricted messaging paths that can be used to provide transaction privacy and confidentiality for specific subsets of network members. All data, including transaction, member and channel information, on a channel are invisible and inaccessible to any network members not explicitly granted access to that channel.
+   But where the data will be stored? Will it be stored on other peers which are not part of the network
+
+Efficient processing
+-> Network roles will be decided by node types
+-> In the general structure: [Organization => Peer => Member], , where the 'node' comes?
+-> transaction execution order in fabric is execute, ordering, commit
+-> Parallel processing: transaction execution before ordering enables parallel processing, because, it enables each peer nodes execute multiple processes simultaneously.
+-> Division of labour: 
+      Ordering nodes are free from transaction execution & ledger maintenance 
+      peer nodes are free from transaction ordering
+      It also simplifies the authentication burden
+   Will the orderers concerned about authenticity of participants in a transaction?
+
+Chaincodes (Smart Contracts): 
+-> Chaincode encodes logic which will be triggered by certain transactions
+-> Chaincode will be channel specific (Need to check)
+-> 2 types : transaction level chain code, system level chain code
+Do we need to write chain code for ordering the transactions? (for orderer?)
+
+Design model: 
+Any use case need to be modeled based on following entities: 
+Assets, Chaincode, Ledger, Privacy, Security & Membership service, Consensus
+Asset: 
+   Exchange of anything with monetary value
+   Assets will be modified by transactional chaincodes.
+   Assets are represented in Hyperledger Fabric as a collection of key-value pairs, with state changes recorded as transactions on a Channel ledger.
+   Asset is represented as collection of key-value pairs.
+   Assets can be represented in binary or json.
+
+Chaincode: 
+   Its the code used to define assets, transaction instructions/rules for modifying assets (asset properties) --> its the business logic 
+   chaincode results set of key-value writes (write set), which will be submitted to the network and applied to the ledger on all pairs
+   Every transaction is a sequence of chaincode invocations. Each invocation results a set of key-value pairs added to the ledger as writes, updates or reads.
+   Chaincodes can only be installed on peer and channel level
+
+Ledger : 
+   The ledger is comprised of a blockchain (‘chain’) to store the immutable, sequenced record in blocks, as well as a state database to maintain current fabric state.
+   A channel’s ledger contains a configuration block defining policies, access control lists, and other pertinent information.
+   channels keep transactions private from the broader network whereas collections keep data private between subsets of organizations on the channel.
+
+Ordering: 
+   The network is formed when an orderer is started, the first thing that defines a network is an ordering service!!.
+   This service is the collection of nodes that orders the transactions into a block 
+   Transactions will be ordered based on FCFS for all the channels. 
+   Ordering service can be comprised of multiple nodes from different organization, to provide decentralization
+
+CA (Certifying Authority) : 
+   These are used to identify the users of the organization by issuing certificates to administrators and nodes. 
+   ex: CA1 
+
+Consortium: Group of organizations 
+
+Channel: 
+A channel is a primary communications mechanism by which the members of a consortium can communicate with each other. There can be multiple channels in a network.
+
+
+==================================================================================================================================
+                                    Network --> Consortiums --> Organizations --> Channels
+==================================================================================================================================
+
+Peer: 
+   The purpose of a peer node is to purely host the ledger for others to access it. 
+   Ledger is physically hosted in the peer node but logically in a channel. 
+   Smart contracts also physically hosted in the peer but logically in a channel. 
+
+   A Peer will join a channel by sending join request to the orderer.
+   Orderer allows/denies the access to peer by using channel configuration, Channel configuration will also contains the permission details like read/write
+   [Channel configuration will contain the organization details as well]
+
+Client applications and smart contracts: 
+   Smart contract is installed on a peer and instantiated on a channel. 
+   Client applications will use smart contract to access the ledger through peer. 
+
+Identity: 
+   Each actors in the blockchain network like peers, orderers, client applications, administrators etc (internal / external to the network) has a digital identity contained in a digital certificate. 
+   In Hyperledger fabric, these identities with some additional information like Permissions is called Principal. (identity + additional permission -> Principal)
+   For an identity to be verifiable, it must be from a trusted authority. For this fabric uses MSP (Membership service provider)
+   PKI (Public Key Infrastructure) --> it dispenses many verifiable identities & MSP --> tells  which of these identities are given authorization.
+   eg: PKI like a card provider whereas MSP is the list of card providers that are accepted at the store. 
+   MSPs turn verifiable identities into the members of a blockchain network.
+
+PKIs & MSP:
+   A public key infrastructure (PKI) is a collection of internet technologies that provides secure communications in a network.
+   Blockchain relies on the PKIs for secure communication among the different parties. 
+   Its very important to understand these concepts. 
+
+PKI has 4 major elements: 
+   Digital Certificates
+   Public & Private keys
+   Certificate Authorities
+   Certificate Revocation Lists
+
+Identity vs membership (MSP): 
+   CAs provides identity (through certificates)
+   MSP identifies which CAs (can be root CAs or intermediate CAs) are trusted to define the membership (of an organization)
+   MSP also defines the roles(eg: admins, members of sub-organization group etc) & access privileges(eg: readers, writers, etc)
+   There are different kinds of MSPs present based on their scope like channel MSP, local MSP etc.
+
+MSPs and Organizations: 
+   An organization is a managed group of members. 
+   An organization can have one or more MSPs, Under each MSP there will be one or more members, one member cannot be part of multiple MSP.
+   MSPs appear in 2 places of blockchain network 
+      i) Channel configuration --> Channel MSPs
+      ii) Local to the actors (users/clients, peers, orderers etc) --> Local MSPs
+
+Peers: 
+   Peers nodes hold copies of ledgers and smart contracts (chain codes).
+   Ledgers will be accessed by chain codes.
+   A peer may contain multiple ledgers, multiple chain codes, a ledger can be accessed by multiple chain codes.  
+   Peers can be created, started, stopped, reconfigured, and even deleted. They expose a set of APIs that enable administrators and applications to interact with the services that they provide.
+
+Applications & Peers: 
+   Application-peer interaction is done through a channel. 
+   The application-peer interaction is different for ledger query and ledger update transactions. 
+   The application will be connected to the peer through Fabric SDK, to access chain codes and ledgers hosted in it. 
+   Fabric SDK enables the application to  to connect to peers, invoke chaincodes to generate transactions, submit transactions to the network that will get ordered and committed to the distributed ledger, and receive events when this process is complete.
+   Result of ledger query transaction is returned immediately but ledger update transaction involves complex process among applications, peers and orderers.
+
+   Ledger Query Transaction: 
+      i. Applications connects to peer. 
+      ii. Application requests chaincode invocation with a query proposal
+      iii. peer invokes the chaincode with the query proposal
+      iv. Chaincode generates the query response. 
+      v. Application receives the query response. 
+
+   Ledger Update Transaction: 
+      i. Applications connects to peer. 
+      ii. Application requests chaincode invocation with a update proposal
+      iii. peer invokes the chaincode with the update proposal
+      iv. Chaincode generates the update proposal response [Proposed ledger after update]. 
+      v. Application receives all the update responses and builds a transaction. 
+      vi. Application sends the transaction to orderer. 
+      vii. Orderer collects the transactions from across the networks into blocks. 
+      viii. Orderer distributes these blocks to all the peers including the current peer. 
+      ix. Peer validates the transaction before updating the ledger. 
+      x. once ledger is updated, peer generates an event, which is being listened by the Application.  
+
+Peers and Organizations:
+   Peers are owned / managed by different organizations.
+   Applications can connect to peers of same or different organizations.
+   Multiple peers participating through a channel can be from different organization (Though they contain the same copy of the ledger.)
+
+Peers and Identity: 
+   Each peer have an identity assigned via a digital certificate from a particular certificate authority. 
+   Each and every peer in the network is assigned a digital certificate by an administrator from its owning organization.
+   When a peer joins a channel, policy in the channel configuration uses the peer's identity to determine its rights. 
+   MSPs (from channel policy) maps the peer's identity to the organization. it determines how a peer gets assigned to a specific role in a particular organization and accordingly gains appropriate access to blockchain resources.
+
+Peers & Orderers: 
+   
+
+
+
+
+   
+
+
+
+
+   
+   
+   
+
+

@@ -1,0 +1,15 @@
+DNS (Domain Name System) is maps website name to IP Address. 
+
+1. When we type the web address in the browser, a query will go to RECURSIVE RESOLVER through ISP (Internet Service Provider)
+2. RECURSIVE RESOLVER will identify the relevant RNS (Root Name Server)
+3. RNS delegates the query to TLD (Top Level Domain) server
+4. TLD Server will respond with IP address. 
+
+
+
+
+-> Root Name Server 
+    -> 13 sets (A, B, C, ... M) of around 300 locations
+    -> Contains the References to TLD servers 
+-> TLD Server
+-> DNS Server
