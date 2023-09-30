@@ -1,11 +1,12 @@
-Docker is used to deploy the applications not the machines.
+Docker is used to deploy the applications, not the machines.
 
-Docker uses a client/server architecture. The server uses the Docker engine to cache images, run and manage containers, handle logs and much more.
+Docker uses a client/server architecture. The server uses the Docker engine to cache images, run and manage containers, handle logs, and much more.
 
 Key Terms: 
     A Dockerfile is the source code.
-    An image is the binary resulting from compiling and building your Dockerfile.
+    An image (docker image) is the binary resulting from compiling and building your Dockerfile.
     A container is the running instance of an image, a process by all means.
+    All data in a container is lost once it is removed. Containers use volumes to persist data.
     Images are cached and containers are run by a Docker host (a machine running the Docker engine) [need to understand]
-    Images are stored in a public registry [like npm, apt, pip etc]
-    
+    Images are stored in a public registry [like npm, apt, pip, etc]
+
