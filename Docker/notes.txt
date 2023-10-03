@@ -1,3 +1,5 @@
+Best course to learn Docker: https://courses.devopsdirective.com/
+
 Docker is used to deploy the applications, not the machines.
 
 Docker uses a client/server architecture. The server uses the Docker engine to cache images, run and manage containers, handle logs, and much more.
@@ -10,3 +12,5 @@ Key Terms:
     Images are cached and containers are run by a Docker host (a machine running the Docker engine) [need to understand]
     Images are stored in a public registry [like npm, apt, pip, etc]
 
+
+docker build -f Dockerfile .   --> building image from Docker file
