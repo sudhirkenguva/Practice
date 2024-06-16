@@ -1,0 +1,16 @@
+#Running a python program using container 
+docker run -it -v c:/users/ksudh:/app python python3 /app/test_msg.py
+
+docker run -it -v ${pwd}:/app python python3 /app/test_msg.py
+
+docker run -it -v ${pwd}:/app -w /app python python3 test_msg.py
+
+
+# To execute additional commands in already running command 
+docker container exec it <<container id>> sh
+
+#to view all the running processes
+ps -e 
+
+#to see the running container details 
+docker container inspect <<container_id>>  [check for values Path and args for the starting script and arguments    ]
